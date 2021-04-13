@@ -232,4 +232,56 @@ module.exports.sync = (client) => {
 			}
 		})
 	}
+
+
+	client.on(`message`, message => {
+		const { guild } = message;
+		const guildInfo = new JSONdb(`./servers/${guild.id}.json`);
+		if (!guildInfo.get("afkusers")) return;
+		const afkUsers = guildInfo.get("afkusers");
+		if (afkUsers[message.author.id]) { 
+			message.channel.send(`Welcome back, I removed your afk.`);
+			delete afkUsers[message.author.id];
+			return guildInfo.set("afkusers", afkUsers);
+		}
+		if (!message.mentions.members) return;
+		if (afkUsers[message.mentions.members.first() ? message.mentions.members.first().user.id : null]) return message.channel.send(`${message.mentions.members.first().user.username}#${message.mentions.members.first().user.discriminator} is afk for ${afkUsers[message.mentions.members.first().id]}`);
+	})
+
+
+	client.on(`messageDelete`, async message => {
+		if (message.member.bot) return;
+		const { guild } = message;
+		const guildInfo = new JSONdb(`./servers/${guild.id}.json`)
+		if (!guild) return;
+		const logid = guildInfo.get("logid");
+		const logs1 = await message.guild.fetchAuditLogs({
+			limit: 1,
+			type: 'MESSAGE_DELETE',
+		});
+		const logs = logs1.entries.first();
+		if (!logs) console.log(logs1);
+		const channel = guild.channels.cache.get(logid);
+		let value;
+		if (logs.target.id !== message.author.id) {
+			value = {
+				id: message.author.id,
+				name: `${message.author.username}#${message.author.discriminator}`,
+				content: message.content.toString(),
+				time: message.createdTimestamp
+			}
+			console.log(`eeeeeeeeeeeeeeeeeee`)
+			guildInfo.set(`${message.channel.id}-snipe`, value);
+		}
+		else {
+			value = {
+				id: logs.target.id,
+				name: `${logs.target.username}#${logs.target.discriminator}`,
+				content: message.content.toString(),
+				time: message.createdTimestamp
+			}
+			console.log(`eeeeeeeeeeeeeeeeeee`)
+			guildInfo.set(`${message.channel.id}-snipe`, value);
+		}
+	})
 }

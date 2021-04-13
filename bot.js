@@ -36,7 +36,8 @@ app.post("/vote", webhook.middleware(), (req, res) => {
 	const { guild } = channel;
 	console.log(req.vote.user);
 	const user = client.users.cache.get(req.vote.user);
-	channel.send(`${user.username}#${user.discriminator} voted for Eternity, ty!`)
+	channel.send(`${user.username}#${user.discriminator} voted for Eternity, ty!`);
+	user.send(`Thanks for voting!`);
 });
 
 app.listen(8080);

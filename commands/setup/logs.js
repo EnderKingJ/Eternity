@@ -5,7 +5,6 @@ module.exports = client => {
 	// Start of delete logging
 	client.on(`messageDelete`, async message => {
 		const { guild } = message;
-		console.log(message)
 		const guildInfo = new JSONdb(`./servers/${guild.id}.json`)
 		if (!guild) return;
 		const logid = guildInfo.get("logid");
