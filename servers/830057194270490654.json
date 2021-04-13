@@ -1,0 +1,907 @@
+{
+    "prefix": "e!",
+    "joinchannel": "830058060726140938",
+    "rolejoinid": "830927121445945394",
+    "joinmessage": "<#830058060726140938>",
+    "verification": false,
+    "invites": {
+        "Crosis#0001": 0,
+        "Ashley / Ducky [✘BOT] ⭐#3674": 0
+    },
+    "invitedby": {
+        "Ashley / Ducky [✘BOT] ⭐#3674": "Crosis#0001",
+        "Eclipse.#0003": "Ashley / Ducky [✘BOT] ⭐#3674"
+    },
+    "backups": {
+        "1": {
+            "members": {
+                "cache": [
+                    {
+                        "joinedTimestamp": 1617971456835,
+                        "lastMessageID": "830101574768001044",
+                        "lastMessageChannelID": "830057194270490657",
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": null,
+                        "roles": [
+                            "830071487025250344",
+                            "830067506303074324",
+                            "830058723573366797"
+                        ],
+                        "user": {
+                            "id": "729864813467140206",
+                            "system": null,
+                            "locale": null,
+                            "flags": 0,
+                            "username": "Crosis",
+                            "bot": false,
+                            "discriminator": "0001",
+                            "avatar": "833aa41adfa0cdd5029b9eea8d38387b",
+                            "lastMessageChannelID": "830057194270490657",
+                            "createdTimestamp": 1594083731763,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/1.png",
+                            "tag": "Crosis#0001",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/729864813467140206/833aa41adfa0cdd5029b9eea8d38387b.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/729864813467140206/833aa41adfa0cdd5029b9eea8d38387b.webp"
+                        }
+                    },
+                    {
+                        "joinedTimestamp": 1617973826507,
+                        "lastMessageID": null,
+                        "lastMessageChannelID": null,
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": null,
+                        "roles": [
+                            "830071730612731904",
+                            "830058723573366797"
+                        ],
+                        "user": {
+                            "id": "799415670147776573",
+                            "system": null,
+                            "locale": null,
+                            "flags": 128,
+                            "username": "Ashley / Ducky [✘BOT] ⭐",
+                            "bot": false,
+                            "discriminator": "3674",
+                            "avatar": "bb7dfe3094bb6fa383c64c58616e154f",
+                            "lastMessageChannelID": null,
+                            "createdTimestamp": 1610665948188,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+                            "tag": "Ashley / Ducky [✘BOT] ⭐#3674",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/799415670147776573/bb7dfe3094bb6fa383c64c58616e154f.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/799415670147776573/bb7dfe3094bb6fa383c64c58616e154f.webp"
+                        }
+                    },
+                    {
+                        "joinedTimestamp": 1617971744112,
+                        "lastMessageID": null,
+                        "lastMessageChannelID": null,
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": null,
+                        "roles": [
+                            "830071487025250344",
+                            "830058121031450625",
+                            "830058723573366797"
+                        ],
+                        "user": {
+                            "id": "801527633283907584",
+                            "system": null,
+                            "locale": null,
+                            "flags": 0,
+                            "username": "J'existe",
+                            "bot": false,
+                            "discriminator": "4993",
+                            "avatar": "8b915f8f417afaa754aa3f9c7cc14f97",
+                            "lastMessageChannelID": null,
+                            "createdTimestamp": 1611169479438,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/3.png",
+                            "tag": "J'existe#4993",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/801527633283907584/8b915f8f417afaa754aa3f9c7cc14f97.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/801527633283907584/8b915f8f417afaa754aa3f9c7cc14f97.webp"
+                        }
+                    },
+                    {
+                        "joinedTimestamp": 1617971524295,
+                        "lastMessageID": "830101575157415987",
+                        "lastMessageChannelID": "830057194270490657",
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": null,
+                        "roles": [
+                            "830057477084020798"
+                        ],
+                        "user": {
+                            "id": "822105903599058994",
+                            "system": null,
+                            "locale": null,
+                            "flags": 0,
+                            "username": "Eternity",
+                            "bot": true,
+                            "discriminator": "2811",
+                            "avatar": "556e84de0251c2102e731e020ced7019",
+                            "lastMessageChannelID": "830057194270490657",
+                            "verified": true,
+                            "mfaEnabled": false,
+                            "createdTimestamp": 1616075721407,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/1.png",
+                            "tag": "Eternity#2811",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/822105903599058994/556e84de0251c2102e731e020ced7019.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/822105903599058994/556e84de0251c2102e731e020ced7019.webp"
+                        }
+                    }
+                ],
+                "guild": {
+                    "members": [
+                        "729864813467140206",
+                        "799415670147776573",
+                        "801527633283907584",
+                        "822105903599058994"
+                    ],
+                    "channels": [
+                        "830057194270490655",
+                        "830057194270490656",
+                        "830057194270490657",
+                        "830057194270490658",
+                        "830057588334788668",
+                        "830057889498136577",
+                        "830058060726140938",
+                        "830065453526941726",
+                        "830071016645853244",
+                        "830072040584249394",
+                        "830072040584249395"
+                    ],
+                    "roles": [
+                        "830057194270490654",
+                        "830057477084020798",
+                        "830057669271486514",
+                        "830058121031450625",
+                        "830058723573366797",
+                        "830065452570771467",
+                        "830067506303074324",
+                        "830071487025250344",
+                        "830071730612731904"
+                    ],
+                    "deleted": false,
+                    "id": "830057194270490654",
+                    "shardID": 0,
+                    "name": "WebCraft",
+                    "icon": null,
+                    "splash": null,
+                    "discoverySplash": null,
+                    "region": "us-west",
+                    "memberCount": 4,
+                    "large": false,
+                    "features": [
+                        "NEWS",
+                        "COMMUNITY"
+                    ],
+                    "applicationID": null,
+                    "afkTimeout": 300,
+                    "afkChannelID": null,
+                    "systemChannelID": null,
+                    "premiumTier": 0,
+                    "premiumSubscriptionCount": 0,
+                    "verificationLevel": "LOW",
+                    "explicitContentFilter": "ALL_MEMBERS",
+                    "mfaLevel": 0,
+                    "joinedTimestamp": 1617971524295,
+                    "defaultMessageNotifications": "MENTIONS",
+                    "systemChannelFlags": 0,
+                    "maximumMembers": 100000,
+                    "maximumPresences": null,
+                    "approximateMemberCount": null,
+                    "approximatePresenceCount": null,
+                    "vanityURLCode": null,
+                    "vanityURLUses": null,
+                    "description": null,
+                    "banner": null,
+                    "rulesChannelID": "830072040584249394",
+                    "publicUpdatesChannelID": "830072040584249395",
+                    "preferredLocale": "en-US",
+                    "ownerID": "799415670147776573",
+                    "emojis": [],
+                    "createdTimestamp": 1617971456831,
+                    "nameAcronym": "W",
+                    "iconURL": null,
+                    "splashURL": null,
+                    "discoverySplashURL": null,
+                    "bannerURL": null
+                }
+            },
+            "channels": {
+                "cache": [
+                    {
+                        "type": "category",
+                        "deleted": false,
+                        "id": "830057194270490655",
+                        "name": "Text Channels",
+                        "rawPosition": 0,
+                        "parentID": null,
+                        "permissionOverwrites": [
+                            {
+                                "id": "830065452570771467",
+                                "type": "role",
+                                "deny": 1024,
+                                "allow": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "category",
+                        "deleted": false,
+                        "id": "830057194270490656",
+                        "name": "Voice Channels",
+                        "rawPosition": 0,
+                        "parentID": null,
+                        "permissionOverwrites": [
+                            {
+                                "id": "830065452570771467",
+                                "type": "role",
+                                "deny": 1024,
+                                "allow": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "830057194270490657",
+                        "name": "general",
+                        "rawPosition": 2,
+                        "parentID": "830057194270490655",
+                        "permissionOverwrites": [
+                            {
+                                "id": "830065452570771467",
+                                "type": "role",
+                                "deny": 1024,
+                                "allow": 0
+                            }
+                        ],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": "830101575157415987",
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [
+                                {
+                                    "channelID": "830057194270490657",
+                                    "deleted": false,
+                                    "id": "830101574768001044",
+                                    "type": "DEFAULT",
+                                    "system": false,
+                                    "content": "e!backup create 1",
+                                    "authorID": "729864813467140206",
+                                    "pinned": false,
+                                    "tts": false,
+                                    "nonce": "830101571248324608",
+                                    "embeds": [],
+                                    "attachments": [],
+                                    "createdTimestamp": 1617982037966,
+                                    "editedTimestamp": 0,
+                                    "webhookID": null,
+                                    "applicationID": null,
+                                    "activity": null,
+                                    "flags": 0,
+                                    "reference": null,
+                                    "guildID": "830057194270490654",
+                                    "cleanContent": "e!backup create 1"
+                                },
+                                {
+                                    "channelID": "830057194270490657",
+                                    "deleted": false,
+                                    "id": "830101575157415987",
+                                    "type": "DEFAULT",
+                                    "system": false,
+                                    "content": "Creating backup, this could take a bit...",
+                                    "authorID": "822105903599058994",
+                                    "pinned": false,
+                                    "tts": false,
+                                    "nonce": null,
+                                    "embeds": [],
+                                    "attachments": [],
+                                    "createdTimestamp": 1617982038059,
+                                    "editedTimestamp": 0,
+                                    "webhookID": null,
+                                    "applicationID": null,
+                                    "activity": null,
+                                    "flags": 0,
+                                    "reference": null,
+                                    "guildID": "830057194270490654",
+                                    "cleanContent": "Creating backup, this could take a bit..."
+                                }
+                            ],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "830057194270490657",
+                                "name": "general",
+                                "rawPosition": 2,
+                                "parentID": "830057194270490655",
+                                "permissionOverwrites": [
+                                    "830065452570771467"
+                                ],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": "830101575157415987",
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830057194270490654",
+                                "messages": [
+                                    "830101574768001044",
+                                    "830101575157415987"
+                                ],
+                                "createdTimestamp": 1617971456831
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "830057194270490658",
+                        "name": "General",
+                        "rawPosition": 0,
+                        "parentID": "830057194270490656",
+                        "permissionOverwrites": [
+                            {
+                                "id": "830065452570771467",
+                                "type": "role",
+                                "deny": 1024,
+                                "allow": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "category",
+                        "deleted": false,
+                        "id": "830057588334788668",
+                        "name": "Support",
+                        "rawPosition": 1,
+                        "parentID": null,
+                        "permissionOverwrites": [
+                            {
+                                "id": "830065452570771467",
+                                "type": "role",
+                                "deny": 1024,
+                                "allow": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "830057889498136577",
+                        "name": "tickets",
+                        "rawPosition": 5,
+                        "parentID": "830057588334788668",
+                        "permissionOverwrites": [
+                            {
+                                "id": "830065452570771467",
+                                "type": "role",
+                                "deny": 1024,
+                                "allow": 0
+                            }
+                        ],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "830057889498136577",
+                                "name": "tickets",
+                                "rawPosition": 5,
+                                "parentID": "830057588334788668",
+                                "permissionOverwrites": [
+                                    "830065452570771467"
+                                ],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830057194270490654",
+                                "messages": [],
+                                "createdTimestamp": 1617971622586
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "830058060726140938",
+                        "name": "joinleave",
+                        "rawPosition": 3,
+                        "parentID": "830057194270490655",
+                        "permissionOverwrites": [
+                            {
+                                "id": "830065452570771467",
+                                "type": "role",
+                                "deny": 1024,
+                                "allow": 0
+                            }
+                        ],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": "830067134809243728",
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "830058060726140938",
+                                "name": "joinleave",
+                                "rawPosition": 3,
+                                "parentID": "830057194270490655",
+                                "permissionOverwrites": [
+                                    "830065452570771467"
+                                ],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": "830067134809243728",
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830057194270490654",
+                                "messages": [],
+                                "createdTimestamp": 1617971663410
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "830065453526941726",
+                        "name": "verify",
+                        "rawPosition": 1,
+                        "parentID": null,
+                        "permissionOverwrites": [
+                            {
+                                "id": "830057194270490654",
+                                "type": "role",
+                                "deny": 2048,
+                                "allow": 0
+                            }
+                        ],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "830065453526941726",
+                                "name": "verify",
+                                "rawPosition": 1,
+                                "parentID": null,
+                                "permissionOverwrites": [
+                                    "830057194270490654"
+                                ],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830057194270490654",
+                                "messages": [],
+                                "createdTimestamp": 1617973425991
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "news",
+                        "deleted": false,
+                        "id": "830071016645853244",
+                        "name": "updates",
+                        "rawPosition": 4,
+                        "parentID": "830057194270490655",
+                        "permissionOverwrites": [
+                            {
+                                "id": "830065452570771467",
+                                "type": "role",
+                                "deny": 1024,
+                                "allow": 0
+                            }
+                        ],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": "830090361044860988",
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "news",
+                                "deleted": false,
+                                "id": "830071016645853244",
+                                "name": "updates",
+                                "rawPosition": 4,
+                                "parentID": "830057194270490655",
+                                "permissionOverwrites": [
+                                    "830065452570771467"
+                                ],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": "830090361044860988",
+                                "lastPinTimestamp": null,
+                                "guild": "830057194270490654",
+                                "messages": [],
+                                "createdTimestamp": 1617974752342
+                            }
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "830072040584249394",
+                        "name": "rules",
+                        "rawPosition": 0,
+                        "parentID": null,
+                        "permissionOverwrites": [
+                            {
+                                "id": "830057194270490654",
+                                "type": "role",
+                                "deny": 2048,
+                                "allow": 0
+                            },
+                            {
+                                "id": "830065452570771467",
+                                "type": "role",
+                                "deny": 1024,
+                                "allow": 0
+                            }
+                        ],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "830072040584249394",
+                                "name": "rules",
+                                "rawPosition": 0,
+                                "parentID": null,
+                                "permissionOverwrites": [
+                                    "830057194270490654",
+                                    "830065452570771467"
+                                ],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830057194270490654",
+                                "messages": [],
+                                "createdTimestamp": 1617974996468
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "830072040584249395",
+                        "name": "moderator-only",
+                        "rawPosition": 1,
+                        "parentID": null,
+                        "permissionOverwrites": [
+                            {
+                                "id": "830057194270490654",
+                                "type": "role",
+                                "deny": 1024,
+                                "allow": 0
+                            }
+                        ],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": "830072041435824128",
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "830072040584249395",
+                                "name": "moderator-only",
+                                "rawPosition": 1,
+                                "parentID": null,
+                                "permissionOverwrites": [
+                                    "830057194270490654"
+                                ],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": "830072041435824128",
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830057194270490654",
+                                "messages": [],
+                                "createdTimestamp": 1617974996468
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    }
+                ],
+                "guild": {
+                    "members": [
+                        "729864813467140206",
+                        "799415670147776573",
+                        "801527633283907584",
+                        "822105903599058994"
+                    ],
+                    "channels": [
+                        "830057194270490655",
+                        "830057194270490656",
+                        "830057194270490657",
+                        "830057194270490658",
+                        "830057588334788668",
+                        "830057889498136577",
+                        "830058060726140938",
+                        "830065453526941726",
+                        "830071016645853244",
+                        "830072040584249394",
+                        "830072040584249395"
+                    ],
+                    "roles": [
+                        "830057194270490654",
+                        "830057477084020798",
+                        "830057669271486514",
+                        "830058121031450625",
+                        "830058723573366797",
+                        "830065452570771467",
+                        "830067506303074324",
+                        "830071487025250344",
+                        "830071730612731904"
+                    ],
+                    "deleted": false,
+                    "id": "830057194270490654",
+                    "shardID": 0,
+                    "name": "WebCraft",
+                    "icon": null,
+                    "splash": null,
+                    "discoverySplash": null,
+                    "region": "us-west",
+                    "memberCount": 4,
+                    "large": false,
+                    "features": [
+                        "NEWS",
+                        "COMMUNITY"
+                    ],
+                    "applicationID": null,
+                    "afkTimeout": 300,
+                    "afkChannelID": null,
+                    "systemChannelID": null,
+                    "premiumTier": 0,
+                    "premiumSubscriptionCount": 0,
+                    "verificationLevel": "LOW",
+                    "explicitContentFilter": "ALL_MEMBERS",
+                    "mfaLevel": 0,
+                    "joinedTimestamp": 1617971524295,
+                    "defaultMessageNotifications": "MENTIONS",
+                    "systemChannelFlags": 0,
+                    "maximumMembers": 100000,
+                    "maximumPresences": null,
+                    "approximateMemberCount": null,
+                    "approximatePresenceCount": null,
+                    "vanityURLCode": null,
+                    "vanityURLUses": null,
+                    "description": null,
+                    "banner": null,
+                    "rulesChannelID": "830072040584249394",
+                    "publicUpdatesChannelID": "830072040584249395",
+                    "preferredLocale": "en-US",
+                    "ownerID": "799415670147776573",
+                    "emojis": [],
+                    "createdTimestamp": 1617971456831,
+                    "nameAcronym": "W",
+                    "iconURL": null,
+                    "splashURL": null,
+                    "discoverySplashURL": null,
+                    "bannerURL": null
+                }
+            },
+            "roles": {
+                "cache": [
+                    {
+                        "id": "830057194270490654",
+                        "name": "@everyone",
+                        "color": 0,
+                        "hoist": false,
+                        "rawPosition": 0,
+                        "permissions": 104189505,
+                        "managed": false,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "830057477084020798",
+                        "name": "Eternity",
+                        "color": 0,
+                        "hoist": false,
+                        "rawPosition": 6,
+                        "permissions": 1573911799,
+                        "managed": true,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "830057669271486514",
+                        "name": "Support",
+                        "color": 0,
+                        "hoist": false,
+                        "rawPosition": 3,
+                        "permissions": 104320577,
+                        "managed": false,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "830058121031450625",
+                        "name": "Member",
+                        "color": 0,
+                        "hoist": true,
+                        "rawPosition": 2,
+                        "permissions": 37080641,
+                        "managed": false,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "830058723573366797",
+                        "name": "Admin",
+                        "color": 6225920,
+                        "hoist": true,
+                        "rawPosition": 4,
+                        "permissions": 1610088055,
+                        "managed": false,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "830065452570771467",
+                        "name": "unverified",
+                        "color": 0,
+                        "hoist": false,
+                        "rawPosition": 1,
+                        "permissions": 104320577,
+                        "managed": false,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "830067506303074324",
+                        "name": "Manager",
+                        "color": 13172736,
+                        "hoist": true,
+                        "rawPosition": 5,
+                        "permissions": 2117598967,
+                        "managed": false,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "830071487025250344",
+                        "name": "Discord Maker",
+                        "color": 10038562,
+                        "hoist": true,
+                        "rawPosition": 7,
+                        "permissions": 104320577,
+                        "managed": false,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "830071730612731904",
+                        "name": "Owner",
+                        "color": 3447003,
+                        "hoist": true,
+                        "rawPosition": 8,
+                        "permissions": 104320577,
+                        "managed": false,
+                        "mentionable": false,
+                        "deleted": false
+                    }
+                ],
+                "guild": {
+                    "members": [
+                        "729864813467140206",
+                        "799415670147776573",
+                        "801527633283907584",
+                        "822105903599058994"
+                    ],
+                    "channels": [
+                        "830057194270490655",
+                        "830057194270490656",
+                        "830057194270490657",
+                        "830057194270490658",
+                        "830057588334788668",
+                        "830057889498136577",
+                        "830058060726140938",
+                        "830065453526941726",
+                        "830071016645853244",
+                        "830072040584249394",
+                        "830072040584249395"
+                    ],
+                    "roles": [
+                        "830057194270490654",
+                        "830057477084020798",
+                        "830057669271486514",
+                        "830058121031450625",
+                        "830058723573366797",
+                        "830065452570771467",
+                        "830067506303074324",
+                        "830071487025250344",
+                        "830071730612731904"
+                    ],
+                    "deleted": false,
+                    "id": "830057194270490654",
+                    "shardID": 0,
+                    "name": "WebCraft",
+                    "icon": null,
+                    "splash": null,
+                    "discoverySplash": null,
+                    "region": "us-west",
+                    "memberCount": 4,
+                    "large": false,
+                    "features": [
+                        "NEWS",
+                        "COMMUNITY"
+                    ],
+                    "applicationID": null,
+                    "afkTimeout": 300,
+                    "afkChannelID": null,
+                    "systemChannelID": null,
+                    "premiumTier": 0,
+                    "premiumSubscriptionCount": 0,
+                    "verificationLevel": "LOW",
+                    "explicitContentFilter": "ALL_MEMBERS",
+                    "mfaLevel": 0,
+                    "joinedTimestamp": 1617971524295,
+                    "defaultMessageNotifications": "MENTIONS",
+                    "systemChannelFlags": 0,
+                    "maximumMembers": 100000,
+                    "maximumPresences": null,
+                    "approximateMemberCount": null,
+                    "approximatePresenceCount": null,
+                    "vanityURLCode": null,
+                    "vanityURLUses": null,
+                    "description": null,
+                    "banner": null,
+                    "rulesChannelID": "830072040584249394",
+                    "publicUpdatesChannelID": "830072040584249395",
+                    "preferredLocale": "en-US",
+                    "ownerID": "799415670147776573",
+                    "emojis": [],
+                    "createdTimestamp": 1617971456831,
+                    "nameAcronym": "W",
+                    "iconURL": null,
+                    "splashURL": null,
+                    "discoverySplashURL": null,
+                    "bannerURL": null
+                }
+            }
+        }
+    },
+    "giveawayid": "830533749577220167",
+    "gwinners": [],
+    "830533196126879765-gusers": [
+        "799415670147776573",
+        "729864813467140206"
+    ],
+    "830533749577220167-gusers": [
+        "729864813467140206",
+        "799415670147776573"
+    ],
+    "799415670147776573warns": 1
+}
