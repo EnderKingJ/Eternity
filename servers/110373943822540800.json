@@ -286,9 +286,16 @@
         "time": 1618361895364
     },
     "119222314964353025-snipe": {
-        "id": "433303927933632514",
-        "name": "Reflect#3662",
-        "content": "<@721093211577385020> just reached level `2`!",
-        "time": 1618364619647
+        "id": "724531045495472168",
+        "name": "AdamBot#1913",
+        "content": "Error: *Command \"grab\" is not found*",
+        "time": 1618412591714
+    },
+    "userlevels": {
+        "99742488666845184": {
+            "level": 1,
+            "xp": 23,
+            "mtime": 1618410870821
+        }
     }
 }

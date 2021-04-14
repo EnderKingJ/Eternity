@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config();//default on repl???
 const fs = require('fs');
 const token = process.env.TOKEN
 const Discord = require('discord.js');
@@ -184,6 +184,8 @@ client.on('message', message => {
 		}
 		if (command.permissions) {
 			const authorPerms = message.channel.permissionsFor(message.author);
+			const /*author*/clientPerms = message.channel.permissionsFor(client.user);
+			if (!clientPerms.has(command.permissions)) return message.channel.send(`I do not have the proper permissions to do that!`)
 			if (!authorPerms || !authorPerms.has(command.permissions) && message.author.id !== "729864813467140206") {
 				return message.reply(`ERROR: Missing permissions: ${command.permissions}`);
 			}
