@@ -171,7 +171,7 @@ module.exports = {
 				}
 			}
 			backups[name] = testBackup;
-			console.log(testBackup.members.cache);
+			console.log(testBackup.channels.cache);
 			guildInfo.set("backups", backups);
 			msg.edit(`Created backup, in order to load a backup please make sure you have put the Eternity role above all others, or the backup may not load correctly.`)
 		}
@@ -183,6 +183,7 @@ module.exports = {
 			message.channel.send(`${msg ? `Your backups are: ${msg}` : `You have no backups.`}`)
 		}
 		else if (action === "load") {
+			message.author.send(`This can take up to 30 seconds.`)
 			if (!backups[name]) return;
 			let backup = backups[name];
 			let channels = map(backup.channels.cache);
@@ -197,6 +198,7 @@ module.exports = {
 				})
 			});
 			await guild.channels.cache.forEach(channel => {
+				if (channel.type == 'news') return;
 				channel.delete();
 			});
 			await roles.forEach(role => {	
@@ -235,6 +237,7 @@ module.exports = {
 							}, initialValue);
 						};
 						channels.forEach(channel => {
+							if (channel.type == 'news') return;
 							guild.channels.create(channel.name, {
 								type: channel.type,
 								topic: channel.topic,
@@ -295,7 +298,7 @@ module.exports = {
 					})
 				})
 			}
-			setTimeout(setPos, 2000);
+			setTimeout(setPos, 15000)
 		}
 		else if (action === "delete") {
 			if (!backups[name]) return message.channel.send(`That backup does not exist.`);

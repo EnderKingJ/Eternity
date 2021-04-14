@@ -118,8 +118,9 @@ module.exports = client => {
 		const logs = logs1.entries.first();
 		if (!logs) console.log(logs1);
 		if (logs.target.id !== channel.id) return;
+		let thing = logs.target.name;
 		const embed = new Discord.MessageEmbed()
-			.setDescription(`<#${logs.target.id}> was created by <@${logs.executor.id}>.`);
+			.setDescription(`${logs.target.name} was created by <@${logs.executor.id}>.`);
 		const channel1 = guild.channels.cache.get(logid);
 		channel1.send(embed);
 	})
@@ -134,10 +135,11 @@ module.exports = client => {
 			type: `CHANNEL_DELETE`
 		});
 		const logs = logs1.entries.first();
+		let thing = logs.target.name;
 		if (!logs) console.log(logs1);
 		if (logs.target.id !== channel.id) return;
 		const embed = new Discord.MessageEmbed()
-			.setDescription(`<#${logs.target.name}> was deleted by <@${logs.executor.id}>.`);
+			.setDescription(`${thing} was deleted by <@${logs.executor.id}>.`);
 		const channel1 = guild.channels.cache.get(logid);
 		channel1.send(embed);
 	})

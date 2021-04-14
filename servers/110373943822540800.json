@@ -255,34 +255,40 @@
         "hrm"
     ],
     "132632676225122304-snipe": {
-        "id": "751100444188737617",
-        "name": "EpicBot 🏅#8285",
-        "content": "**Rock Paper Scissors**\nChoose your shape:",
-        "time": 1618324807534
+        "id": "697463492457922571",
+        "name": "Tommy#4727",
+        "content": "",
+        "time": 1618347425873
     },
     "110373943822540800-snipe": {
-        "id": "697245896588656801",
-        "name": "! Sashi '新#9805",
-        "content": "**falando portugu~",
-        "time": 1618317463681
+        "id": "343383572805058560",
+        "name": "Ven#0727",
+        "content": "it should say vendy pong!!",
+        "time": 1618361105648
     },
     "afkusers": {},
     "110374153562886144-snipe": {
-        "id": "583372548205445170",
-        "name": ".Dynìstriøs#0013",
-        "content": "",
-        "time": 1618316427392
+        "id": "747837545055912007",
+        "name": "Cookie Manager#1175",
+        "content": "**You don't have permissions for that command. Use `.help` to show all permissions needed for each command.**",
+        "time": 1618349575435
     },
     "117018340114825217-snipe": {
-        "id": "515627506829754377",
-        "name": "WolfoTheWolf#2764",
-        "content": "fl!pplay https://www.youtube.com/watch?v=2l6JUNFAJ9o",
-        "time": 1618312443934
+        "id": "765528197965021194",
+        "name": "Equizer#5502",
+        "content": "",
+        "time": 1618327327943
     },
     "113743192305827841-snipe": {
-        "id": "786980891595505684",
-        "name": "Mehrbod#8766",
-        "content": ".",
-        "time": 1618323988199
+        "id": "797194460886728704",
+        "name": "Letra#8343",
+        "content": "*sad*",
+        "time": 1618361895364
+    },
+    "119222314964353025-snipe": {
+        "id": "433303927933632514",
+        "name": "Reflect#3662",
+        "content": "<@721093211577385020> just reached level `2`!",
+        "time": 1618364619647
     }
 }

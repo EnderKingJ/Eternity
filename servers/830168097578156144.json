@@ -1,4 +1,3125 @@
 {
     "prefix": "e!",
-    "joinchannel": "830168098602614791"
+    "joinchannel": "830168098602614791",
+    "backups": {
+        "watch": {
+            "members": {
+                "cache": [
+                    {
+                        "joinedTimestamp": 1617998295514,
+                        "lastMessageID": null,
+                        "lastMessageChannelID": null,
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": null,
+                        "roles": [
+                            "830169763744972851"
+                        ],
+                        "user": {
+                            "id": "159985870458322944",
+                            "system": null,
+                            "locale": null,
+                            "flags": 65536,
+                            "username": "MEE6",
+                            "bot": true,
+                            "discriminator": "4876",
+                            "avatar": "b50adff099924dd5e6b72d13f77eb9d7",
+                            "lastMessageChannelID": null,
+                            "createdTimestamp": 1458214003911,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/1.png",
+                            "tag": "MEE6#4876",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/159985870458322944/b50adff099924dd5e6b72d13f77eb9d7.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/159985870458322944/b50adff099924dd5e6b72d13f77eb9d7.webp"
+                        }
+                    },
+                    {
+                        "joinedTimestamp": 1618020119051,
+                        "lastMessageID": null,
+                        "lastMessageChannelID": null,
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": null,
+                        "roles": [
+                            "830261298234916934"
+                        ],
+                        "user": {
+                            "id": "235088799074484224",
+                            "system": null,
+                            "locale": null,
+                            "flags": 65536,
+                            "username": "Rythm",
+                            "bot": true,
+                            "discriminator": "3722",
+                            "avatar": "9b29bfc497a70b6cc85bb2087936f8fd",
+                            "lastMessageChannelID": null,
+                            "createdTimestamp": 1476119937438,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+                            "tag": "Rythm#3722",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/235088799074484224/9b29bfc497a70b6cc85bb2087936f8fd.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/235088799074484224/9b29bfc497a70b6cc85bb2087936f8fd.webp"
+                        }
+                    },
+                    {
+                        "joinedTimestamp": 1618253493562,
+                        "lastMessageID": null,
+                        "lastMessageChannelID": null,
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": null,
+                        "roles": [
+                            "831240141766000672"
+                        ],
+                        "user": {
+                            "id": "252128902418268161",
+                            "system": null,
+                            "locale": null,
+                            "flags": 65536,
+                            "username": "Rythm 2",
+                            "bot": true,
+                            "discriminator": "2000",
+                            "avatar": "689701e12b3a452f2307db5ec83005b1",
+                            "lastMessageChannelID": null,
+                            "createdTimestamp": 1480182614665,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+                            "tag": "Rythm 2#2000",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/252128902418268161/689701e12b3a452f2307db5ec83005b1.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/252128902418268161/689701e12b3a452f2307db5ec83005b1.webp"
+                        }
+                    },
+                    {
+                        "joinedTimestamp": 1618000901972,
+                        "lastMessageID": null,
+                        "lastMessageChannelID": null,
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": null,
+                        "roles": [
+                            "830169511805452330"
+                        ],
+                        "user": {
+                            "id": "497582225563451404",
+                            "system": null,
+                            "locale": null,
+                            "flags": null,
+                            "username": "karen.19",
+                            "bot": false,
+                            "discriminator": "5202",
+                            "avatar": "b5484b9e0adf2ea4f7eaa9bfd35b5bd5",
+                            "lastMessageChannelID": null,
+                            "createdTimestamp": 1538703247205,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+                            "tag": "karen.19#5202",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/497582225563451404/b5484b9e0adf2ea4f7eaa9bfd35b5bd5.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/497582225563451404/b5484b9e0adf2ea4f7eaa9bfd35b5bd5.webp"
+                        }
+                    },
+                    {
+                        "joinedTimestamp": 1618001542509,
+                        "lastMessageID": null,
+                        "lastMessageChannelID": null,
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": null,
+                        "roles": [
+                            "830169393341530126"
+                        ],
+                        "user": {
+                            "id": "547145997395034135",
+                            "system": null,
+                            "locale": null,
+                            "flags": null,
+                            "username": "MrMozzie",
+                            "bot": false,
+                            "discriminator": "8639",
+                            "avatar": "c20e6546c3c9a2f989fc2c917bd3441f",
+                            "lastMessageChannelID": null,
+                            "createdTimestamp": 1550520171260,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+                            "tag": "MrMozzie#8639",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/547145997395034135/c20e6546c3c9a2f989fc2c917bd3441f.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/547145997395034135/c20e6546c3c9a2f989fc2c917bd3441f.webp"
+                        }
+                    },
+                    {
+                        "joinedTimestamp": 1618000612067,
+                        "lastMessageID": "831598092327059487",
+                        "lastMessageChannelID": "830168098602614789",
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": null,
+                        "roles": [
+                            "830169511805452330",
+                            "830169167163949076",
+                            "830169393341530126"
+                        ],
+                        "user": {
+                            "id": "729864813467140206",
+                            "system": null,
+                            "locale": null,
+                            "flags": 0,
+                            "username": "Crosis",
+                            "bot": false,
+                            "discriminator": "0001",
+                            "avatar": "833aa41adfa0cdd5029b9eea8d38387b",
+                            "lastMessageChannelID": "830168098602614789",
+                            "createdTimestamp": 1594083731763,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/1.png",
+                            "tag": "Crosis#0001",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/729864813467140206/833aa41adfa0cdd5029b9eea8d38387b.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/729864813467140206/833aa41adfa0cdd5029b9eea8d38387b.webp"
+                        }
+                    },
+                    {
+                        "joinedTimestamp": 1618253851421,
+                        "lastMessageID": "831598093156876309",
+                        "lastMessageChannelID": "830168098602614789",
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": null,
+                        "roles": [
+                            "831241642878304307"
+                        ],
+                        "user": {
+                            "id": "822105903599058994",
+                            "system": null,
+                            "locale": null,
+                            "flags": 0,
+                            "username": "Eternity",
+                            "bot": true,
+                            "discriminator": "2811",
+                            "avatar": "556e84de0251c2102e731e020ced7019",
+                            "lastMessageChannelID": "830168098602614789",
+                            "verified": true,
+                            "mfaEnabled": false,
+                            "createdTimestamp": 1616075721407,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/1.png",
+                            "tag": "Eternity#2811",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/822105903599058994/556e84de0251c2102e731e020ced7019.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/822105903599058994/556e84de0251c2102e731e020ced7019.webp"
+                        }
+                    },
+                    {
+                        "joinedTimestamp": 1617997898441,
+                        "lastMessageID": null,
+                        "lastMessageChannelID": null,
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": "ChillVibez",
+                        "roles": [
+                            "830169167163949076"
+                        ],
+                        "user": {
+                            "id": "826893726864506880",
+                            "system": null,
+                            "locale": null,
+                            "flags": 128,
+                            "username": "DudeactualDev",
+                            "bot": false,
+                            "discriminator": "6666",
+                            "avatar": "8a60d8123dd520b580ec281b6aa8f141",
+                            "lastMessageChannelID": null,
+                            "createdTimestamp": 1617217227427,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/1.png",
+                            "tag": "DudeactualDev#6666",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/826893726864506880/8a60d8123dd520b580ec281b6aa8f141.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/826893726864506880/8a60d8123dd520b580ec281b6aa8f141.webp"
+                        }
+                    }
+                ],
+                "guild": {
+                    "members": [
+                        "159985870458322944",
+                        "235088799074484224",
+                        "252128902418268161",
+                        "497582225563451404",
+                        "547145997395034135",
+                        "729864813467140206",
+                        "822105903599058994",
+                        "826893726864506880"
+                    ],
+                    "channels": [
+                        "830168098602614784",
+                        "830168098602614785",
+                        "830168098602614786",
+                        "830168098602614788",
+                        "830168098602614789",
+                        "830168098602614792",
+                        "830168098602614793",
+                        "830168098937503815",
+                        "830168098937503816",
+                        "830168502185754625",
+                        "830168812711182386",
+                        "830170762445979699",
+                        "830171569749229600",
+                        "830171633271963668",
+                        "830171753568796683",
+                        "830173593970540554",
+                        "830183945551347762",
+                        "830275593459204136",
+                        "830281346961637407",
+                        "830281376082165790"
+                    ],
+                    "roles": [
+                        "830168097578156144",
+                        "830169167163949076",
+                        "830169393341530126",
+                        "830169511805452330",
+                        "830169763744972851",
+                        "830261298234916934",
+                        "831240141766000672",
+                        "831241642878304307"
+                    ],
+                    "deleted": false,
+                    "id": "830168097578156144",
+                    "shardID": 0,
+                    "name": "Chill Vibes Lounge",
+                    "icon": "aff8aa2430770548e8cbd5d884967875",
+                    "splash": null,
+                    "discoverySplash": null,
+                    "region": "us-west",
+                    "memberCount": 8,
+                    "large": false,
+                    "features": [
+                        "WELCOME_SCREEN_ENABLED",
+                        "NEWS",
+                        "COMMUNITY"
+                    ],
+                    "applicationID": null,
+                    "afkTimeout": 3600,
+                    "afkChannelID": "830168812711182386",
+                    "systemChannelID": null,
+                    "premiumTier": 0,
+                    "premiumSubscriptionCount": 0,
+                    "verificationLevel": "HIGH",
+                    "explicitContentFilter": "ALL_MEMBERS",
+                    "mfaLevel": 0,
+                    "joinedTimestamp": 1618253851421,
+                    "defaultMessageNotifications": "MENTIONS",
+                    "systemChannelFlags": 0,
+                    "maximumMembers": 100000,
+                    "maximumPresences": null,
+                    "approximateMemberCount": null,
+                    "approximatePresenceCount": null,
+                    "vanityURLCode": null,
+                    "vanityURLUses": null,
+                    "description": null,
+                    "banner": null,
+                    "rulesChannelID": "830168098602614785",
+                    "publicUpdatesChannelID": "830168098602614786",
+                    "preferredLocale": "en-US",
+                    "ownerID": "826893726864506880",
+                    "emojis": [
+                        "830172158234853386",
+                        "830172268541640724",
+                        "830172297188868126"
+                    ],
+                    "createdTimestamp": 1617997898240,
+                    "nameAcronym": "CVL",
+                    "iconURL": "https://cdn.discordapp.com/icons/830168097578156144/aff8aa2430770548e8cbd5d884967875.webp",
+                    "splashURL": null,
+                    "discoverySplashURL": null,
+                    "bannerURL": null
+                }
+            },
+            "channels": {
+                "cache": [
+                    {
+                        "type": "category",
+                        "deleted": false,
+                        "id": "830168098602614784",
+                        "name": "Information",
+                        "rawPosition": 0,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "830168098602614785",
+                        "name": "welcome-and-rules",
+                        "rawPosition": 0,
+                        "parentID": "830168098602614784",
+                        "permissionOverwrites": [
+                            {
+                                "id": "830168097578156144",
+                                "type": "role",
+                                "deny": 805828689,
+                                "allow": 1024
+                            },
+                            {
+                                "id": "830169393341530126",
+                                "type": "role",
+                                "deny": 0,
+                                "allow": 0
+                            }
+                        ],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": "830190450501353514",
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "830168098602614785",
+                                "name": "welcome-and-rules",
+                                "rawPosition": 0,
+                                "parentID": "830168098602614784",
+                                "permissionOverwrites": [
+                                    "830168097578156144",
+                                    "830169393341530126"
+                                ],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": "830190450501353514",
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1617997898484
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "830168098602614786",
+                        "name": "mod-announcements",
+                        "rawPosition": 2,
+                        "parentID": "830168098602614784",
+                        "permissionOverwrites": [
+                            {
+                                "id": "830169393341530126",
+                                "type": "role",
+                                "deny": 805826577,
+                                "allow": 3136
+                            }
+                        ],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "830168098602614786",
+                                "name": "mod-announcements",
+                                "rawPosition": 2,
+                                "parentID": "830168098602614784",
+                                "permissionOverwrites": [
+                                    "830169393341530126"
+                                ],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1617997898484
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "category",
+                        "deleted": false,
+                        "id": "830168098602614788",
+                        "name": "🌟General Public",
+                        "rawPosition": 4,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "830168098602614789",
+                        "name": "general🦑",
+                        "rawPosition": 3,
+                        "parentID": "830168098602614788",
+                        "permissionOverwrites": [],
+                        "topic": "General Chat",
+                        "nsfw": false,
+                        "lastMessageID": "831598093156876309",
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [
+                                {
+                                    "channelID": "830168098602614789",
+                                    "deleted": false,
+                                    "id": "831598066331156561",
+                                    "type": "DEFAULT",
+                                    "system": false,
+                                    "content": "<@!826893726864506880> wanna see something cool",
+                                    "authorID": "729864813467140206",
+                                    "pinned": false,
+                                    "tts": false,
+                                    "nonce": "831598064253796352",
+                                    "embeds": [],
+                                    "attachments": [],
+                                    "createdTimestamp": 1618338829358,
+                                    "editedTimestamp": 0,
+                                    "webhookID": null,
+                                    "applicationID": null,
+                                    "activity": null,
+                                    "flags": 0,
+                                    "reference": null,
+                                    "guildID": "830168097578156144",
+                                    "cleanContent": "@​ChillVibez wanna see something cool"
+                                },
+                                {
+                                    "channelID": "830168098602614789",
+                                    "deleted": false,
+                                    "id": "831598092327059487",
+                                    "type": "DEFAULT",
+                                    "system": false,
+                                    "content": "e!backup create watch",
+                                    "authorID": "729864813467140206",
+                                    "pinned": false,
+                                    "tts": false,
+                                    "nonce": "831598089759358976",
+                                    "embeds": [],
+                                    "attachments": [],
+                                    "createdTimestamp": 1618338835556,
+                                    "editedTimestamp": 0,
+                                    "webhookID": null,
+                                    "applicationID": null,
+                                    "activity": null,
+                                    "flags": 0,
+                                    "reference": null,
+                                    "guildID": "830168097578156144",
+                                    "cleanContent": "e!backup create watch"
+                                },
+                                {
+                                    "channelID": "830168098602614789",
+                                    "deleted": false,
+                                    "id": "831598093156876309",
+                                    "type": "DEFAULT",
+                                    "system": false,
+                                    "content": "Creating backup, this could take a bit...",
+                                    "authorID": "822105903599058994",
+                                    "pinned": false,
+                                    "tts": false,
+                                    "nonce": null,
+                                    "embeds": [],
+                                    "attachments": [],
+                                    "createdTimestamp": 1618338835754,
+                                    "editedTimestamp": 0,
+                                    "webhookID": null,
+                                    "applicationID": null,
+                                    "activity": null,
+                                    "flags": 0,
+                                    "reference": null,
+                                    "guildID": "830168097578156144",
+                                    "cleanContent": "Creating backup, this could take a bit..."
+                                }
+                            ],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "830168098602614789",
+                                "name": "general🦑",
+                                "rawPosition": 3,
+                                "parentID": "830168098602614788",
+                                "permissionOverwrites": [],
+                                "topic": "General Chat",
+                                "nsfw": false,
+                                "lastMessageID": "831598093156876309",
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [
+                                    "831598066331156561",
+                                    "831598092327059487",
+                                    "831598093156876309"
+                                ],
+                                "createdTimestamp": 1617997898484
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "category",
+                        "deleted": false,
+                        "id": "830168098602614792",
+                        "name": "🌟Audio Channels",
+                        "rawPosition": 8,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "830168098602614793",
+                        "name": "Lounge💺",
+                        "rawPosition": 2,
+                        "parentID": "830168098602614792",
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "830168098937503815",
+                        "name": "Study-1📚",
+                        "rawPosition": 3,
+                        "parentID": "830168098602614792",
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "830168098937503816",
+                        "name": "Study-2📚",
+                        "rawPosition": 4,
+                        "parentID": "830168098602614792",
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "830168502185754625",
+                        "name": "self-ad📝",
+                        "rawPosition": 6,
+                        "parentID": "830168098602614788",
+                        "permissionOverwrites": [
+                            {
+                                "id": "830168097578156144",
+                                "type": "role",
+                                "deny": 805828625,
+                                "allow": 1088
+                            },
+                            {
+                                "id": "830169393341530126",
+                                "type": "role",
+                                "deny": 0,
+                                "allow": 1024
+                            },
+                            {
+                                "id": "830169511805452330",
+                                "type": "role",
+                                "deny": 0,
+                                "allow": 1024
+                            }
+                        ],
+                        "topic": "Advertise servers!",
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "830168502185754625",
+                                "name": "self-ad📝",
+                                "rawPosition": 6,
+                                "parentID": "830168098602614788",
+                                "permissionOverwrites": [
+                                    "830168097578156144",
+                                    "830169393341530126",
+                                    "830169511805452330"
+                                ],
+                                "topic": "Advertise servers!",
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1617997994706
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "830168812711182386",
+                        "name": "afk",
+                        "rawPosition": 5,
+                        "parentID": "830168098602614792",
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "830170762445979699",
+                        "name": "bot🤖",
+                        "rawPosition": 7,
+                        "parentID": "830168098602614788",
+                        "permissionOverwrites": [],
+                        "topic": "Spam the bot.",
+                        "nsfw": false,
+                        "lastMessageID": "831241747031130172",
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "830170762445979699",
+                                "name": "bot🤖",
+                                "rawPosition": 7,
+                                "parentID": "830168098602614788",
+                                "permissionOverwrites": [],
+                                "topic": "Spam the bot.",
+                                "nsfw": false,
+                                "lastMessageID": "831241747031130172",
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1617998533594
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "category",
+                        "deleted": false,
+                        "id": "830171569749229600",
+                        "name": "🌟Staffs🌠",
+                        "rawPosition": 9,
+                        "parentID": null,
+                        "permissionOverwrites": [
+                            {
+                                "id": "830168097578156144",
+                                "type": "role",
+                                "deny": 1049600,
+                                "allow": 0
+                            },
+                            {
+                                "id": "830169393341530126",
+                                "type": "role",
+                                "deny": 0,
+                                "allow": 1049600
+                            },
+                            {
+                                "id": "159985870458322944",
+                                "type": "member",
+                                "deny": 0,
+                                "allow": 1049600
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "830171633271963668",
+                        "name": "adminmod",
+                        "rawPosition": 9,
+                        "parentID": "830171569749229600",
+                        "permissionOverwrites": [
+                            {
+                                "id": "159985870458322944",
+                                "type": "member",
+                                "deny": 0,
+                                "allow": 1024
+                            },
+                            {
+                                "id": "830168097578156144",
+                                "type": "role",
+                                "deny": 1024,
+                                "allow": 0
+                            },
+                            {
+                                "id": "830169393341530126",
+                                "type": "role",
+                                "deny": 0,
+                                "allow": 1024
+                            }
+                        ],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": "831597279668469771",
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [
+                                {
+                                    "channelID": "830171633271963668",
+                                    "deleted": false,
+                                    "id": "831597279668469771",
+                                    "type": "DEFAULT",
+                                    "system": false,
+                                    "content": "",
+                                    "authorID": "830171814760153098",
+                                    "pinned": false,
+                                    "tts": false,
+                                    "nonce": null,
+                                    "embeds": [
+                                        {
+                                            "type": "rich",
+                                            "title": null,
+                                            "description": "**<@826893726864506880> updated their profile!**",
+                                            "url": null,
+                                            "color": 16426267,
+                                            "timestamp": 1618338566682,
+                                            "fields": [
+                                                {
+                                                    "inline": false,
+                                                    "name": "Avatar",
+                                                    "value": "[[before]](https://cdn.mee6.xyz/moderator-logs/830168097578156144/a_4df27a46f522014804485ef887809d51.gif) -> [[after]](https://cdn.discordapp.com/avatars/826893726864506880/8a60d8123dd520b580ec281b6aa8f141.png?size=1024)"
+                                                }
+                                            ],
+                                            "image": null,
+                                            "video": null,
+                                            "provider": null,
+                                            "files": []
+                                        }
+                                    ],
+                                    "attachments": [],
+                                    "createdTimestamp": 1618338641803,
+                                    "editedTimestamp": 0,
+                                    "webhookID": "830171814760153098",
+                                    "applicationID": null,
+                                    "activity": null,
+                                    "flags": 0,
+                                    "reference": null,
+                                    "guildID": "830168097578156144",
+                                    "cleanContent": ""
+                                }
+                            ],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "830171633271963668",
+                                "name": "adminmod",
+                                "rawPosition": 9,
+                                "parentID": "830171569749229600",
+                                "permissionOverwrites": [
+                                    "159985870458322944",
+                                    "830168097578156144",
+                                    "830169393341530126"
+                                ],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": "831597279668469771",
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [
+                                    "831597279668469771"
+                                ],
+                                "createdTimestamp": 1617998741215
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "830171753568796683",
+                        "name": "adminmod",
+                        "rawPosition": 6,
+                        "parentID": "830171569749229600",
+                        "permissionOverwrites": [
+                            {
+                                "id": "159985870458322944",
+                                "type": "member",
+                                "deny": 0,
+                                "allow": 1049600
+                            },
+                            {
+                                "id": "830168097578156144",
+                                "type": "role",
+                                "deny": 1049600,
+                                "allow": 0
+                            },
+                            {
+                                "id": "830169393341530126",
+                                "type": "role",
+                                "deny": 0,
+                                "allow": 1049600
+                            }
+                        ]
+                    },
+                    {
+                        "type": "news",
+                        "deleted": false,
+                        "id": "830173593970540554",
+                        "name": "announcements",
+                        "rawPosition": 1,
+                        "parentID": "830168098602614784",
+                        "permissionOverwrites": [
+                            {
+                                "id": "830168097578156144",
+                                "type": "role",
+                                "deny": 2048,
+                                "allow": 0
+                            }
+                        ],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "news",
+                                "deleted": false,
+                                "id": "830173593970540554",
+                                "name": "announcements",
+                                "rawPosition": 1,
+                                "parentID": "830168098602614784",
+                                "permissionOverwrites": [
+                                    "830168097578156144"
+                                ],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1617999208682
+                            }
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "830183945551347762",
+                        "name": "no-mic🎤",
+                        "rawPosition": 8,
+                        "parentID": "830168098602614792",
+                        "permissionOverwrites": [],
+                        "topic": "No-Mic Chat",
+                        "nsfw": false,
+                        "lastMessageID": "831240834186739803",
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "830183945551347762",
+                                "name": "no-mic🎤",
+                                "rawPosition": 8,
+                                "parentID": "830168098602614792",
+                                "permissionOverwrites": [],
+                                "topic": "No-Mic Chat",
+                                "nsfw": false,
+                                "lastMessageID": "831240834186739803",
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618001676691
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "830275593459204136",
+                        "name": "Game Stream🎮",
+                        "rawPosition": 1,
+                        "parentID": "830168098602614792",
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "830281346961637407",
+                        "name": "off-topic🤔",
+                        "rawPosition": 4,
+                        "parentID": "830168098602614788",
+                        "permissionOverwrites": [],
+                        "topic": "Talk about off-topic stuff!",
+                        "nsfw": false,
+                        "lastMessageID": "830284199578566736",
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "830281346961637407",
+                                "name": "off-topic🤔",
+                                "rawPosition": 4,
+                                "parentID": "830168098602614788",
+                                "permissionOverwrites": [],
+                                "topic": "Talk about off-topic stuff!",
+                                "nsfw": false,
+                                "lastMessageID": "830284199578566736",
+                                "rateLimitPerUser": 5,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618024898997
+                            }
+                        },
+                        "rateLimitPerUser": 5
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "830281376082165790",
+                        "name": "gaming🎮",
+                        "rawPosition": 5,
+                        "parentID": "830168098602614788",
+                        "permissionOverwrites": [],
+                        "topic": "Talk About Gaming!",
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "830281376082165790",
+                                "name": "gaming🎮",
+                                "rawPosition": 5,
+                                "parentID": "830168098602614788",
+                                "permissionOverwrites": [],
+                                "topic": "Talk About Gaming!",
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618024905940
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    }
+                ],
+                "guild": {
+                    "members": [
+                        "159985870458322944",
+                        "235088799074484224",
+                        "252128902418268161",
+                        "497582225563451404",
+                        "547145997395034135",
+                        "729864813467140206",
+                        "822105903599058994",
+                        "826893726864506880"
+                    ],
+                    "channels": [
+                        "830168098602614784",
+                        "830168098602614785",
+                        "830168098602614786",
+                        "830168098602614788",
+                        "830168098602614789",
+                        "830168098602614792",
+                        "830168098602614793",
+                        "830168098937503815",
+                        "830168098937503816",
+                        "830168502185754625",
+                        "830168812711182386",
+                        "830170762445979699",
+                        "830171569749229600",
+                        "830171633271963668",
+                        "830171753568796683",
+                        "830173593970540554",
+                        "830183945551347762",
+                        "830275593459204136",
+                        "830281346961637407",
+                        "830281376082165790"
+                    ],
+                    "roles": [
+                        "830168097578156144",
+                        "830169167163949076",
+                        "830169393341530126",
+                        "830169511805452330",
+                        "830169763744972851",
+                        "830261298234916934",
+                        "831240141766000672",
+                        "831241642878304307"
+                    ],
+                    "deleted": false,
+                    "id": "830168097578156144",
+                    "shardID": 0,
+                    "name": "Chill Vibes Lounge",
+                    "icon": "aff8aa2430770548e8cbd5d884967875",
+                    "splash": null,
+                    "discoverySplash": null,
+                    "region": "us-west",
+                    "memberCount": 8,
+                    "large": false,
+                    "features": [
+                        "WELCOME_SCREEN_ENABLED",
+                        "NEWS",
+                        "COMMUNITY"
+                    ],
+                    "applicationID": null,
+                    "afkTimeout": 3600,
+                    "afkChannelID": "830168812711182386",
+                    "systemChannelID": null,
+                    "premiumTier": 0,
+                    "premiumSubscriptionCount": 0,
+                    "verificationLevel": "HIGH",
+                    "explicitContentFilter": "ALL_MEMBERS",
+                    "mfaLevel": 0,
+                    "joinedTimestamp": 1618253851421,
+                    "defaultMessageNotifications": "MENTIONS",
+                    "systemChannelFlags": 0,
+                    "maximumMembers": 100000,
+                    "maximumPresences": null,
+                    "approximateMemberCount": null,
+                    "approximatePresenceCount": null,
+                    "vanityURLCode": null,
+                    "vanityURLUses": null,
+                    "description": null,
+                    "banner": null,
+                    "rulesChannelID": "830168098602614785",
+                    "publicUpdatesChannelID": "830168098602614786",
+                    "preferredLocale": "en-US",
+                    "ownerID": "826893726864506880",
+                    "emojis": [
+                        "830172158234853386",
+                        "830172268541640724",
+                        "830172297188868126"
+                    ],
+                    "createdTimestamp": 1617997898240,
+                    "nameAcronym": "CVL",
+                    "iconURL": "https://cdn.discordapp.com/icons/830168097578156144/aff8aa2430770548e8cbd5d884967875.webp",
+                    "splashURL": null,
+                    "discoverySplashURL": null,
+                    "bannerURL": null
+                }
+            },
+            "roles": {
+                "cache": [
+                    {
+                        "id": "830168097578156144",
+                        "name": "@everyone",
+                        "color": 0,
+                        "hoist": false,
+                        "rawPosition": 0,
+                        "permissions": 104189505,
+                        "managed": false,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "830169167163949076",
+                        "name": "🌟creator😎",
+                        "color": 12745742,
+                        "hoist": false,
+                        "rawPosition": 7,
+                        "permissions": 104320585,
+                        "managed": false,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "830169393341530126",
+                        "name": "🌟administrative😊",
+                        "color": 2123412,
+                        "hoist": false,
+                        "rawPosition": 5,
+                        "permissions": 1341652803,
+                        "managed": false,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "830169511805452330",
+                        "name": "😊Higher Ranked Viberz😊",
+                        "color": 15277667,
+                        "hoist": false,
+                        "rawPosition": 4,
+                        "permissions": 104291905,
+                        "managed": false,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "830169763744972851",
+                        "name": "MEE6",
+                        "color": 0,
+                        "hoist": false,
+                        "rawPosition": 3,
+                        "permissions": 1916267615,
+                        "managed": true,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "830261298234916934",
+                        "name": "Rythm",
+                        "color": 0,
+                        "hoist": false,
+                        "rawPosition": 2,
+                        "permissions": 8,
+                        "managed": true,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "831240141766000672",
+                        "name": "Rythm 2",
+                        "color": 0,
+                        "hoist": false,
+                        "rawPosition": 1,
+                        "permissions": 3457096,
+                        "managed": true,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "831241642878304307",
+                        "name": "Eternity",
+                        "color": 0,
+                        "hoist": false,
+                        "rawPosition": 6,
+                        "permissions": 8,
+                        "managed": true,
+                        "mentionable": false,
+                        "deleted": false
+                    }
+                ],
+                "guild": {
+                    "members": [
+                        "159985870458322944",
+                        "235088799074484224",
+                        "252128902418268161",
+                        "497582225563451404",
+                        "547145997395034135",
+                        "729864813467140206",
+                        "822105903599058994",
+                        "826893726864506880"
+                    ],
+                    "channels": [
+                        "830168098602614784",
+                        "830168098602614785",
+                        "830168098602614786",
+                        "830168098602614788",
+                        "830168098602614789",
+                        "830168098602614792",
+                        "830168098602614793",
+                        "830168098937503815",
+                        "830168098937503816",
+                        "830168502185754625",
+                        "830168812711182386",
+                        "830170762445979699",
+                        "830171569749229600",
+                        "830171633271963668",
+                        "830171753568796683",
+                        "830173593970540554",
+                        "830183945551347762",
+                        "830275593459204136",
+                        "830281346961637407",
+                        "830281376082165790"
+                    ],
+                    "roles": [
+                        "830168097578156144",
+                        "830169167163949076",
+                        "830169393341530126",
+                        "830169511805452330",
+                        "830169763744972851",
+                        "830261298234916934",
+                        "831240141766000672",
+                        "831241642878304307"
+                    ],
+                    "deleted": false,
+                    "id": "830168097578156144",
+                    "shardID": 0,
+                    "name": "Chill Vibes Lounge",
+                    "icon": "aff8aa2430770548e8cbd5d884967875",
+                    "splash": null,
+                    "discoverySplash": null,
+                    "region": "us-west",
+                    "memberCount": 8,
+                    "large": false,
+                    "features": [
+                        "WELCOME_SCREEN_ENABLED",
+                        "NEWS",
+                        "COMMUNITY"
+                    ],
+                    "applicationID": null,
+                    "afkTimeout": 3600,
+                    "afkChannelID": "830168812711182386",
+                    "systemChannelID": null,
+                    "premiumTier": 0,
+                    "premiumSubscriptionCount": 0,
+                    "verificationLevel": "HIGH",
+                    "explicitContentFilter": "ALL_MEMBERS",
+                    "mfaLevel": 0,
+                    "joinedTimestamp": 1618253851421,
+                    "defaultMessageNotifications": "MENTIONS",
+                    "systemChannelFlags": 0,
+                    "maximumMembers": 100000,
+                    "maximumPresences": null,
+                    "approximateMemberCount": null,
+                    "approximatePresenceCount": null,
+                    "vanityURLCode": null,
+                    "vanityURLUses": null,
+                    "description": null,
+                    "banner": null,
+                    "rulesChannelID": "830168098602614785",
+                    "publicUpdatesChannelID": "830168098602614786",
+                    "preferredLocale": "en-US",
+                    "ownerID": "826893726864506880",
+                    "emojis": [
+                        "830172158234853386",
+                        "830172268541640724",
+                        "830172297188868126"
+                    ],
+                    "createdTimestamp": 1617997898240,
+                    "nameAcronym": "CVL",
+                    "iconURL": "https://cdn.discordapp.com/icons/830168097578156144/aff8aa2430770548e8cbd5d884967875.webp",
+                    "splashURL": null,
+                    "discoverySplashURL": null,
+                    "bannerURL": null
+                }
+            }
+        },
+        "test": {
+            "members": {
+                "cache": [
+                    {
+                        "joinedTimestamp": 1617998295514,
+                        "lastMessageID": null,
+                        "lastMessageChannelID": null,
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": null,
+                        "roles": [
+                            "830169763744972851"
+                        ],
+                        "user": {
+                            "id": "159985870458322944",
+                            "system": null,
+                            "locale": null,
+                            "flags": 65536,
+                            "username": "MEE6",
+                            "bot": true,
+                            "discriminator": "4876",
+                            "avatar": "b50adff099924dd5e6b72d13f77eb9d7",
+                            "lastMessageChannelID": null,
+                            "createdTimestamp": 1458214003911,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/1.png",
+                            "tag": "MEE6#4876",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/159985870458322944/b50adff099924dd5e6b72d13f77eb9d7.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/159985870458322944/b50adff099924dd5e6b72d13f77eb9d7.webp"
+                        }
+                    },
+                    {
+                        "joinedTimestamp": 1618020119051,
+                        "lastMessageID": null,
+                        "lastMessageChannelID": null,
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": null,
+                        "roles": [
+                            "830261298234916934"
+                        ],
+                        "user": {
+                            "id": "235088799074484224",
+                            "system": null,
+                            "locale": null,
+                            "flags": 65536,
+                            "username": "Rythm",
+                            "bot": true,
+                            "discriminator": "3722",
+                            "avatar": "9b29bfc497a70b6cc85bb2087936f8fd",
+                            "lastMessageChannelID": null,
+                            "createdTimestamp": 1476119937438,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+                            "tag": "Rythm#3722",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/235088799074484224/9b29bfc497a70b6cc85bb2087936f8fd.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/235088799074484224/9b29bfc497a70b6cc85bb2087936f8fd.webp"
+                        }
+                    },
+                    {
+                        "joinedTimestamp": 1618253493562,
+                        "lastMessageID": null,
+                        "lastMessageChannelID": null,
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": null,
+                        "roles": [
+                            "831240141766000672"
+                        ],
+                        "user": {
+                            "id": "252128902418268161",
+                            "system": null,
+                            "locale": null,
+                            "flags": 65536,
+                            "username": "Rythm 2",
+                            "bot": true,
+                            "discriminator": "2000",
+                            "avatar": "689701e12b3a452f2307db5ec83005b1",
+                            "lastMessageChannelID": null,
+                            "createdTimestamp": 1480182614665,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+                            "tag": "Rythm 2#2000",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/252128902418268161/689701e12b3a452f2307db5ec83005b1.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/252128902418268161/689701e12b3a452f2307db5ec83005b1.webp"
+                        }
+                    },
+                    {
+                        "joinedTimestamp": 1618000901972,
+                        "lastMessageID": null,
+                        "lastMessageChannelID": null,
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": null,
+                        "roles": [
+                            "831641721879396403"
+                        ],
+                        "user": {
+                            "id": "497582225563451404",
+                            "system": null,
+                            "locale": null,
+                            "flags": null,
+                            "username": "karen.19",
+                            "bot": false,
+                            "discriminator": "5202",
+                            "avatar": "b5484b9e0adf2ea4f7eaa9bfd35b5bd5",
+                            "lastMessageChannelID": null,
+                            "createdTimestamp": 1538703247205,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+                            "tag": "karen.19#5202",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/497582225563451404/b5484b9e0adf2ea4f7eaa9bfd35b5bd5.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/497582225563451404/b5484b9e0adf2ea4f7eaa9bfd35b5bd5.webp"
+                        }
+                    },
+                    {
+                        "joinedTimestamp": 1618001542509,
+                        "lastMessageID": null,
+                        "lastMessageChannelID": null,
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": null,
+                        "roles": [
+                            "831641721615286302"
+                        ],
+                        "user": {
+                            "id": "547145997395034135",
+                            "system": null,
+                            "locale": null,
+                            "flags": null,
+                            "username": "MrMozzie",
+                            "bot": false,
+                            "discriminator": "8639",
+                            "avatar": "c20e6546c3c9a2f989fc2c917bd3441f",
+                            "lastMessageChannelID": null,
+                            "createdTimestamp": 1550520171260,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+                            "tag": "MrMozzie#8639",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/547145997395034135/c20e6546c3c9a2f989fc2c917bd3441f.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/547145997395034135/c20e6546c3c9a2f989fc2c917bd3441f.webp"
+                        }
+                    },
+                    {
+                        "joinedTimestamp": 1618000612067,
+                        "lastMessageID": "831642652897312769",
+                        "lastMessageChannelID": "831641725625565204",
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": null,
+                        "roles": [
+                            "831641721879396403",
+                            "831641721615286302"
+                        ],
+                        "user": {
+                            "id": "729864813467140206",
+                            "system": null,
+                            "locale": null,
+                            "flags": 0,
+                            "username": "Crosis",
+                            "bot": false,
+                            "discriminator": "0001",
+                            "avatar": "833aa41adfa0cdd5029b9eea8d38387b",
+                            "lastMessageChannelID": "831641725625565204",
+                            "createdTimestamp": 1594083731763,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/1.png",
+                            "tag": "Crosis#0001",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/729864813467140206/833aa41adfa0cdd5029b9eea8d38387b.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/729864813467140206/833aa41adfa0cdd5029b9eea8d38387b.webp"
+                        }
+                    },
+                    {
+                        "joinedTimestamp": 1618253851421,
+                        "lastMessageID": "831642653518463056",
+                        "lastMessageChannelID": "831641725625565204",
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": null,
+                        "roles": [
+                            "831241642878304307"
+                        ],
+                        "user": {
+                            "id": "822105903599058994",
+                            "system": null,
+                            "locale": null,
+                            "flags": 0,
+                            "username": "Eternity",
+                            "bot": true,
+                            "discriminator": "2811",
+                            "avatar": "556e84de0251c2102e731e020ced7019",
+                            "lastMessageChannelID": "831641725625565204",
+                            "verified": true,
+                            "mfaEnabled": false,
+                            "createdTimestamp": 1616075721407,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/1.png",
+                            "tag": "Eternity#2811",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/822105903599058994/556e84de0251c2102e731e020ced7019.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/822105903599058994/556e84de0251c2102e731e020ced7019.webp"
+                        }
+                    },
+                    {
+                        "joinedTimestamp": 1617997898441,
+                        "lastMessageID": null,
+                        "lastMessageChannelID": null,
+                        "premiumSinceTimestamp": 0,
+                        "deleted": false,
+                        "nickname": "ChillVibez",
+                        "roles": [],
+                        "user": {
+                            "id": "826893726864506880",
+                            "system": null,
+                            "locale": null,
+                            "flags": 128,
+                            "username": "DudeactualDev",
+                            "bot": false,
+                            "discriminator": "6666",
+                            "avatar": "ec7d2b9cab45945179a1ec5f34194b08",
+                            "lastMessageChannelID": null,
+                            "createdTimestamp": 1617217227427,
+                            "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/1.png",
+                            "tag": "DudeactualDev#6666",
+                            "avatarURL": "https://cdn.discordapp.com/avatars/826893726864506880/ec7d2b9cab45945179a1ec5f34194b08.webp",
+                            "displayAvatarURL": "https://cdn.discordapp.com/avatars/826893726864506880/ec7d2b9cab45945179a1ec5f34194b08.webp"
+                        }
+                    }
+                ],
+                "guild": {
+                    "members": [
+                        "159985870458322944",
+                        "235088799074484224",
+                        "252128902418268161",
+                        "497582225563451404",
+                        "547145997395034135",
+                        "729864813467140206",
+                        "822105903599058994",
+                        "826893726864506880"
+                    ],
+                    "channels": [
+                        "831641732452974673",
+                        "830168098602614785",
+                        "831641727436587039",
+                        "831641734017843261",
+                        "831641723272822845",
+                        "831641724203434024",
+                        "831641737306439731",
+                        "831641742548795403",
+                        "831641729974927371",
+                        "831641725625565204",
+                        "831641739274092605",
+                        "831641737839640597",
+                        "831641731686465628",
+                        "831641740141920286",
+                        "831641729425735711",
+                        "831641725180706826",
+                        "831641725650599967",
+                        "831641731119317073",
+                        "831641736840871956",
+                        "831641742062125126",
+                        "831641733611520032",
+                        "831641735566196827",
+                        "831641726166761514",
+                        "831641741663797358",
+                        "831641738749149204",
+                        "831641730876178472",
+                        "831641727886032896",
+                        "831641728447545394",
+                        "831641732982243348",
+                        "831641737025814569",
+                        "831641740887851009",
+                        "831641739366236212",
+                        "831641736291156008",
+                        "831641733221056513",
+                        "831641735222132816",
+                        "831641728984285195",
+                        "831641740636717076",
+                        "831641724618801163",
+                        "831641734379208715",
+                        "831641726996840508",
+                        "831641742969143356",
+                        "830168098602614786"
+                    ],
+                    "roles": [
+                        "830168097578156144",
+                        "830169763744972851",
+                        "830261298234916934",
+                        "831240141766000672",
+                        "831241642878304307",
+                        "831641719678173213",
+                        "831641721615286302",
+                        "831641721879396403"
+                    ],
+                    "deleted": false,
+                    "id": "830168097578156144",
+                    "shardID": 0,
+                    "name": "Chill Vibes Lounge",
+                    "icon": "aff8aa2430770548e8cbd5d884967875",
+                    "splash": null,
+                    "discoverySplash": null,
+                    "region": "us-west",
+                    "memberCount": 8,
+                    "large": false,
+                    "features": [
+                        "WELCOME_SCREEN_ENABLED",
+                        "COMMUNITY",
+                        "NEWS"
+                    ],
+                    "applicationID": null,
+                    "afkTimeout": 3600,
+                    "afkChannelID": null,
+                    "systemChannelID": null,
+                    "premiumTier": 0,
+                    "premiumSubscriptionCount": 0,
+                    "verificationLevel": "HIGH",
+                    "explicitContentFilter": "ALL_MEMBERS",
+                    "mfaLevel": 0,
+                    "joinedTimestamp": 1618253851421,
+                    "defaultMessageNotifications": "MENTIONS",
+                    "systemChannelFlags": 0,
+                    "maximumMembers": 100000,
+                    "maximumPresences": null,
+                    "approximateMemberCount": null,
+                    "approximatePresenceCount": null,
+                    "vanityURLCode": null,
+                    "vanityURLUses": null,
+                    "description": null,
+                    "banner": null,
+                    "rulesChannelID": "830168098602614785",
+                    "publicUpdatesChannelID": "830168098602614786",
+                    "preferredLocale": "en-US",
+                    "ownerID": "826893726864506880",
+                    "emojis": [
+                        "830172158234853386",
+                        "830172268541640724",
+                        "830172297188868126"
+                    ],
+                    "createdTimestamp": 1617997898240,
+                    "nameAcronym": "CVL",
+                    "iconURL": "https://cdn.discordapp.com/icons/830168097578156144/aff8aa2430770548e8cbd5d884967875.webp",
+                    "splashURL": null,
+                    "discoverySplashURL": null,
+                    "bannerURL": null
+                }
+            },
+            "channels": {
+                "cache": [
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "831641732452974673",
+                        "name": "Game Stream🎮",
+                        "rawPosition": 5,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "830168098602614785",
+                        "name": "welcome-and-rules",
+                        "rawPosition": 0,
+                        "parentID": null,
+                        "permissionOverwrites": [
+                            {
+                                "id": "830168097578156144",
+                                "type": "role",
+                                "deny": 805828689,
+                                "allow": 1024
+                            }
+                        ],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": "830190450501353514",
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "830168098602614785",
+                                "name": "welcome-and-rules",
+                                "rawPosition": 0,
+                                "parentID": null,
+                                "permissionOverwrites": [
+                                    "830168097578156144"
+                                ],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": "830190450501353514",
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1617997898484
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "831641727436587039",
+                        "name": "Study-2📚",
+                        "rawPosition": 2,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "831641734017843261",
+                        "name": "welcome-and-rules",
+                        "rawPosition": 12,
+                        "parentID": null,
+                        "permissionOverwrites": [],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "831641734017843261",
+                                "name": "welcome-and-rules",
+                                "rawPosition": 12,
+                                "parentID": null,
+                                "permissionOverwrites": [],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349240546
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "category",
+                        "deleted": false,
+                        "id": "831641723272822845",
+                        "name": "Information",
+                        "rawPosition": 0,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "831641724203434024",
+                        "name": "welcome-and-rules",
+                        "rawPosition": 3,
+                        "parentID": null,
+                        "permissionOverwrites": [
+                            {
+                                "id": "831641721615286302",
+                                "type": "role",
+                                "deny": 0,
+                                "allow": 0
+                            }
+                        ],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "831641724203434024",
+                                "name": "welcome-and-rules",
+                                "rawPosition": 3,
+                                "parentID": null,
+                                "permissionOverwrites": [
+                                    "831641721615286302"
+                                ],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349238206
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "831641737306439731",
+                        "name": "Study-2📚",
+                        "rawPosition": 8,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "831641742548795403",
+                        "name": "off-topic🤔",
+                        "rawPosition": 19,
+                        "parentID": null,
+                        "permissionOverwrites": [],
+                        "topic": "Talk about off-topic stuff!",
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "831641742548795403",
+                                "name": "off-topic🤔",
+                                "rawPosition": 19,
+                                "parentID": null,
+                                "permissionOverwrites": [],
+                                "topic": "Talk about off-topic stuff!",
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 5,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349242580
+                            }
+                        },
+                        "rateLimitPerUser": 5
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "831641729974927371",
+                        "name": "adminmod",
+                        "rawPosition": 8,
+                        "parentID": null,
+                        "permissionOverwrites": [
+                            {
+                                "id": "159985870458322944",
+                                "type": "member",
+                                "deny": 0,
+                                "allow": 1024
+                            },
+                            {
+                                "id": "831641721615286302",
+                                "type": "role",
+                                "deny": 0,
+                                "allow": 1024
+                            }
+                        ],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "831641729974927371",
+                                "name": "adminmod",
+                                "rawPosition": 8,
+                                "parentID": null,
+                                "permissionOverwrites": [
+                                    "159985870458322944",
+                                    "831641721615286302"
+                                ],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349239582
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "831641725625565204",
+                        "name": "general🦑",
+                        "rawPosition": 5,
+                        "parentID": null,
+                        "permissionOverwrites": [],
+                        "topic": "General Chat",
+                        "nsfw": false,
+                        "lastMessageID": "831642653518463056",
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [
+                                {
+                                    "channelID": "831641725625565204",
+                                    "deleted": false,
+                                    "id": "831642598404915211",
+                                    "type": "DEFAULT",
+                                    "system": false,
+                                    "content": "e!backup delete test",
+                                    "authorID": "729864813467140206",
+                                    "pinned": false,
+                                    "tts": false,
+                                    "nonce": "831642598333480960",
+                                    "embeds": [],
+                                    "attachments": [],
+                                    "createdTimestamp": 1618349446632,
+                                    "editedTimestamp": 0,
+                                    "webhookID": null,
+                                    "applicationID": null,
+                                    "activity": null,
+                                    "flags": 0,
+                                    "reference": null,
+                                    "guildID": "830168097578156144",
+                                    "cleanContent": "e!backup delete test"
+                                },
+                                {
+                                    "channelID": "831641725625565204",
+                                    "deleted": false,
+                                    "id": "831642599336968252",
+                                    "type": "DEFAULT",
+                                    "system": false,
+                                    "content": "Deleted backup.",
+                                    "authorID": "822105903599058994",
+                                    "pinned": false,
+                                    "tts": false,
+                                    "nonce": null,
+                                    "embeds": [],
+                                    "attachments": [],
+                                    "createdTimestamp": 1618349446854,
+                                    "editedTimestamp": 1618349446974,
+                                    "webhookID": null,
+                                    "applicationID": null,
+                                    "activity": null,
+                                    "flags": 0,
+                                    "reference": null,
+                                    "guildID": "830168097578156144",
+                                    "cleanContent": "Deleted backup."
+                                },
+                                {
+                                    "channelID": "831641725625565204",
+                                    "deleted": false,
+                                    "id": "831642611873087489",
+                                    "type": "DEFAULT",
+                                    "system": false,
+                                    "content": "e!backup load test",
+                                    "authorID": "729864813467140206",
+                                    "pinned": false,
+                                    "tts": false,
+                                    "nonce": "831642611776225280",
+                                    "embeds": [],
+                                    "attachments": [],
+                                    "createdTimestamp": 1618349449843,
+                                    "editedTimestamp": 0,
+                                    "webhookID": null,
+                                    "applicationID": null,
+                                    "activity": null,
+                                    "flags": 0,
+                                    "reference": null,
+                                    "guildID": "830168097578156144",
+                                    "cleanContent": "e!backup load test"
+                                },
+                                {
+                                    "channelID": "831641725625565204",
+                                    "deleted": false,
+                                    "id": "831642652897312769",
+                                    "type": "DEFAULT",
+                                    "system": false,
+                                    "content": "e!backup create test",
+                                    "authorID": "729864813467140206",
+                                    "pinned": false,
+                                    "tts": false,
+                                    "nonce": "831642652700049408",
+                                    "embeds": [],
+                                    "attachments": [],
+                                    "createdTimestamp": 1618349459624,
+                                    "editedTimestamp": 0,
+                                    "webhookID": null,
+                                    "applicationID": null,
+                                    "activity": null,
+                                    "flags": 0,
+                                    "reference": null,
+                                    "guildID": "830168097578156144",
+                                    "cleanContent": "e!backup create test"
+                                },
+                                {
+                                    "channelID": "831641725625565204",
+                                    "deleted": false,
+                                    "id": "831642653518463056",
+                                    "type": "DEFAULT",
+                                    "system": false,
+                                    "content": "Creating backup, this could take a bit...",
+                                    "authorID": "822105903599058994",
+                                    "pinned": false,
+                                    "tts": false,
+                                    "nonce": null,
+                                    "embeds": [],
+                                    "attachments": [],
+                                    "createdTimestamp": 1618349459772,
+                                    "editedTimestamp": 0,
+                                    "webhookID": null,
+                                    "applicationID": null,
+                                    "activity": null,
+                                    "flags": 0,
+                                    "reference": null,
+                                    "guildID": "830168097578156144",
+                                    "cleanContent": "Creating backup, this could take a bit..."
+                                }
+                            ],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "831641725625565204",
+                                "name": "general🦑",
+                                "rawPosition": 5,
+                                "parentID": null,
+                                "permissionOverwrites": [],
+                                "topic": "General Chat",
+                                "nsfw": false,
+                                "lastMessageID": "831642653518463056",
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [
+                                    "831642598404915211",
+                                    "831642599336968252",
+                                    "831642611873087489",
+                                    "831642652897312769",
+                                    "831642653518463056"
+                                ],
+                                "createdTimestamp": 1618349238545
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "831641739274092605",
+                        "name": "bot🤖",
+                        "rawPosition": 16,
+                        "parentID": null,
+                        "permissionOverwrites": [],
+                        "topic": "Spam the bot.",
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "831641739274092605",
+                                "name": "bot🤖",
+                                "rawPosition": 16,
+                                "parentID": null,
+                                "permissionOverwrites": [],
+                                "topic": "Spam the bot.",
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349241799
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "831641737839640597",
+                        "name": "self-ad📝",
+                        "rawPosition": 15,
+                        "parentID": null,
+                        "permissionOverwrites": [
+                            {
+                                "id": "831641721879396403",
+                                "type": "role",
+                                "deny": 0,
+                                "allow": 1024
+                            }
+                        ],
+                        "topic": "Advertise servers!",
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "831641737839640597",
+                                "name": "self-ad📝",
+                                "rawPosition": 15,
+                                "parentID": null,
+                                "permissionOverwrites": [
+                                    "831641721879396403"
+                                ],
+                                "topic": "Advertise servers!",
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349241457
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "831641731686465628",
+                        "name": "no-mic🎤",
+                        "rawPosition": 9,
+                        "parentID": null,
+                        "permissionOverwrites": [],
+                        "topic": "No-Mic Chat",
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "831641731686465628",
+                                "name": "no-mic🎤",
+                                "rawPosition": 9,
+                                "parentID": null,
+                                "permissionOverwrites": [],
+                                "topic": "No-Mic Chat",
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349239990
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "831641740141920286",
+                        "name": "adminmod",
+                        "rawPosition": 17,
+                        "parentID": null,
+                        "permissionOverwrites": [
+                            {
+                                "id": "159985870458322944",
+                                "type": "member",
+                                "deny": 0,
+                                "allow": 1024
+                            }
+                        ],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "831641740141920286",
+                                "name": "adminmod",
+                                "rawPosition": 17,
+                                "parentID": null,
+                                "permissionOverwrites": [
+                                    "159985870458322944"
+                                ],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349242006
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "category",
+                        "deleted": false,
+                        "id": "831641729425735711",
+                        "name": "🌟Staffs🌠",
+                        "rawPosition": 3,
+                        "parentID": null,
+                        "permissionOverwrites": [
+                            {
+                                "id": "831641721615286302",
+                                "type": "role",
+                                "deny": 0,
+                                "allow": 1049600
+                            },
+                            {
+                                "id": "159985870458322944",
+                                "type": "member",
+                                "deny": 0,
+                                "allow": 1049600
+                            }
+                        ]
+                    },
+                    {
+                        "type": "category",
+                        "deleted": false,
+                        "id": "831641725180706826",
+                        "name": "🌟General Public",
+                        "rawPosition": 1,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "category",
+                        "deleted": false,
+                        "id": "831641725650599967",
+                        "name": "🌟Audio Channels",
+                        "rawPosition": 2,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "news",
+                        "deleted": false,
+                        "id": "831641731119317073",
+                        "name": "announcements",
+                        "rawPosition": 0,
+                        "parentID": null,
+                        "permissionOverwrites": [],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "news",
+                                "deleted": false,
+                                "id": "831641731119317073",
+                                "name": "announcements",
+                                "rawPosition": 0,
+                                "parentID": null,
+                                "permissionOverwrites": [],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349239855
+                            }
+                        }
+                    },
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "831641736840871956",
+                        "name": "Lounge💺",
+                        "rawPosition": 6,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "831641742062125126",
+                        "name": "Game Stream🎮",
+                        "rawPosition": 11,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "category",
+                        "deleted": false,
+                        "id": "831641733611520032",
+                        "name": "Information",
+                        "rawPosition": 4,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "831641735566196827",
+                        "name": "general🦑",
+                        "rawPosition": 14,
+                        "parentID": null,
+                        "permissionOverwrites": [],
+                        "topic": "General Chat",
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "831641735566196827",
+                                "name": "general🦑",
+                                "rawPosition": 14,
+                                "parentID": null,
+                                "permissionOverwrites": [],
+                                "topic": "General Chat",
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349240915
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "831641726166761514",
+                        "name": "Lounge💺",
+                        "rawPosition": 0,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "831641741663797358",
+                        "name": "no-mic🎤",
+                        "rawPosition": 18,
+                        "parentID": null,
+                        "permissionOverwrites": [],
+                        "topic": "No-Mic Chat",
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "831641741663797358",
+                                "name": "no-mic🎤",
+                                "rawPosition": 18,
+                                "parentID": null,
+                                "permissionOverwrites": [],
+                                "topic": "No-Mic Chat",
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349242369
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "831641738749149204",
+                        "name": "afk",
+                        "rawPosition": 9,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "831641730876178472",
+                        "name": "adminmod",
+                        "rawPosition": 4,
+                        "parentID": null,
+                        "permissionOverwrites": [
+                            {
+                                "id": "159985870458322944",
+                                "type": "member",
+                                "deny": 0,
+                                "allow": 1049600
+                            },
+                            {
+                                "id": "831641721615286302",
+                                "type": "role",
+                                "deny": 0,
+                                "allow": 1049600
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "831641727886032896",
+                        "name": "self-ad📝",
+                        "rawPosition": 6,
+                        "parentID": null,
+                        "permissionOverwrites": [
+                            {
+                                "id": "831641721615286302",
+                                "type": "role",
+                                "deny": 0,
+                                "allow": 1024
+                            }
+                        ],
+                        "topic": "Advertise servers!",
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "831641727886032896",
+                                "name": "self-ad📝",
+                                "rawPosition": 6,
+                                "parentID": null,
+                                "permissionOverwrites": [
+                                    "831641721615286302"
+                                ],
+                                "topic": "Advertise servers!",
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349239084
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "831641728447545394",
+                        "name": "afk",
+                        "rawPosition": 3,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "831641732982243348",
+                        "name": "off-topic🤔",
+                        "rawPosition": 10,
+                        "parentID": null,
+                        "permissionOverwrites": [],
+                        "topic": "Talk about off-topic stuff!",
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "831641732982243348",
+                                "name": "off-topic🤔",
+                                "rawPosition": 10,
+                                "parentID": null,
+                                "permissionOverwrites": [],
+                                "topic": "Talk about off-topic stuff!",
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 5,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349240299
+                            }
+                        },
+                        "rateLimitPerUser": 5
+                    },
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "831641737025814569",
+                        "name": "Study-1📚",
+                        "rawPosition": 7,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "news",
+                        "deleted": false,
+                        "id": "831641740887851009",
+                        "name": "announcements",
+                        "rawPosition": 1,
+                        "parentID": null,
+                        "permissionOverwrites": [],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "news",
+                                "deleted": false,
+                                "id": "831641740887851009",
+                                "name": "announcements",
+                                "rawPosition": 1,
+                                "parentID": null,
+                                "permissionOverwrites": [],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349242184
+                            }
+                        }
+                    },
+                    {
+                        "type": "category",
+                        "deleted": false,
+                        "id": "831641739366236212",
+                        "name": "🌟Staffs🌠",
+                        "rawPosition": 7,
+                        "parentID": null,
+                        "permissionOverwrites": [
+                            {
+                                "id": "159985870458322944",
+                                "type": "member",
+                                "deny": 0,
+                                "allow": 1049600
+                            }
+                        ]
+                    },
+                    {
+                        "type": "category",
+                        "deleted": false,
+                        "id": "831641736291156008",
+                        "name": "🌟Audio Channels",
+                        "rawPosition": 6,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "831641733221056513",
+                        "name": "gaming🎮",
+                        "rawPosition": 11,
+                        "parentID": null,
+                        "permissionOverwrites": [],
+                        "topic": "Talk About Gaming!",
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "831641733221056513",
+                                "name": "gaming🎮",
+                                "rawPosition": 11,
+                                "parentID": null,
+                                "permissionOverwrites": [],
+                                "topic": "Talk About Gaming!",
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349240356
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "category",
+                        "deleted": false,
+                        "id": "831641735222132816",
+                        "name": "🌟General Public",
+                        "rawPosition": 5,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "831641728984285195",
+                        "name": "bot🤖",
+                        "rawPosition": 7,
+                        "parentID": null,
+                        "permissionOverwrites": [],
+                        "topic": "Spam the bot.",
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "831641728984285195",
+                                "name": "bot🤖",
+                                "rawPosition": 7,
+                                "parentID": null,
+                                "permissionOverwrites": [],
+                                "topic": "Spam the bot.",
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349239346
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "831641740636717076",
+                        "name": "adminmod",
+                        "rawPosition": 10,
+                        "parentID": null,
+                        "permissionOverwrites": [
+                            {
+                                "id": "159985870458322944",
+                                "type": "member",
+                                "deny": 0,
+                                "allow": 1049600
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "831641724618801163",
+                        "name": "mod-announcements",
+                        "rawPosition": 4,
+                        "parentID": null,
+                        "permissionOverwrites": [
+                            {
+                                "id": "831641721615286302",
+                                "type": "role",
+                                "deny": 805826577,
+                                "allow": 3136
+                            }
+                        ],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "831641724618801163",
+                                "name": "mod-announcements",
+                                "rawPosition": 4,
+                                "parentID": null,
+                                "permissionOverwrites": [
+                                    "831641721615286302"
+                                ],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349238305
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "831641734379208715",
+                        "name": "mod-announcements",
+                        "rawPosition": 13,
+                        "parentID": null,
+                        "permissionOverwrites": [],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "831641734379208715",
+                                "name": "mod-announcements",
+                                "rawPosition": 13,
+                                "parentID": null,
+                                "permissionOverwrites": [],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349240632
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "voice",
+                        "deleted": false,
+                        "id": "831641726996840508",
+                        "name": "Study-1📚",
+                        "rawPosition": 1,
+                        "parentID": null,
+                        "permissionOverwrites": []
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "831641742969143356",
+                        "name": "gaming🎮",
+                        "rawPosition": 20,
+                        "parentID": null,
+                        "permissionOverwrites": [],
+                        "topic": "Talk About Gaming!",
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "831641742969143356",
+                                "name": "gaming🎮",
+                                "rawPosition": 20,
+                                "parentID": null,
+                                "permissionOverwrites": [],
+                                "topic": "Talk About Gaming!",
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1618349242680
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    },
+                    {
+                        "type": "text",
+                        "deleted": false,
+                        "id": "830168098602614786",
+                        "name": "mod-announcements",
+                        "rawPosition": 2,
+                        "parentID": null,
+                        "permissionOverwrites": [],
+                        "topic": null,
+                        "nsfw": false,
+                        "lastMessageID": null,
+                        "lastPinTimestamp": null,
+                        "messages": {
+                            "cache": [],
+                            "channel": {
+                                "type": "text",
+                                "deleted": false,
+                                "id": "830168098602614786",
+                                "name": "mod-announcements",
+                                "rawPosition": 2,
+                                "parentID": null,
+                                "permissionOverwrites": [],
+                                "topic": null,
+                                "nsfw": false,
+                                "lastMessageID": null,
+                                "rateLimitPerUser": 0,
+                                "lastPinTimestamp": null,
+                                "guild": "830168097578156144",
+                                "messages": [],
+                                "createdTimestamp": 1617997898484
+                            }
+                        },
+                        "rateLimitPerUser": 0
+                    }
+                ],
+                "guild": {
+                    "members": [
+                        "159985870458322944",
+                        "235088799074484224",
+                        "252128902418268161",
+                        "497582225563451404",
+                        "547145997395034135",
+                        "729864813467140206",
+                        "822105903599058994",
+                        "826893726864506880"
+                    ],
+                    "channels": [
+                        "831641732452974673",
+                        "830168098602614785",
+                        "831641727436587039",
+                        "831641734017843261",
+                        "831641723272822845",
+                        "831641724203434024",
+                        "831641737306439731",
+                        "831641742548795403",
+                        "831641729974927371",
+                        "831641725625565204",
+                        "831641739274092605",
+                        "831641737839640597",
+                        "831641731686465628",
+                        "831641740141920286",
+                        "831641729425735711",
+                        "831641725180706826",
+                        "831641725650599967",
+                        "831641731119317073",
+                        "831641736840871956",
+                        "831641742062125126",
+                        "831641733611520032",
+                        "831641735566196827",
+                        "831641726166761514",
+                        "831641741663797358",
+                        "831641738749149204",
+                        "831641730876178472",
+                        "831641727886032896",
+                        "831641728447545394",
+                        "831641732982243348",
+                        "831641737025814569",
+                        "831641740887851009",
+                        "831641739366236212",
+                        "831641736291156008",
+                        "831641733221056513",
+                        "831641735222132816",
+                        "831641728984285195",
+                        "831641740636717076",
+                        "831641724618801163",
+                        "831641734379208715",
+                        "831641726996840508",
+                        "831641742969143356",
+                        "830168098602614786"
+                    ],
+                    "roles": [
+                        "830168097578156144",
+                        "830169763744972851",
+                        "830261298234916934",
+                        "831240141766000672",
+                        "831241642878304307",
+                        "831641719678173213",
+                        "831641721615286302",
+                        "831641721879396403"
+                    ],
+                    "deleted": false,
+                    "id": "830168097578156144",
+                    "shardID": 0,
+                    "name": "Chill Vibes Lounge",
+                    "icon": "aff8aa2430770548e8cbd5d884967875",
+                    "splash": null,
+                    "discoverySplash": null,
+                    "region": "us-west",
+                    "memberCount": 8,
+                    "large": false,
+                    "features": [
+                        "WELCOME_SCREEN_ENABLED",
+                        "COMMUNITY",
+                        "NEWS"
+                    ],
+                    "applicationID": null,
+                    "afkTimeout": 3600,
+                    "afkChannelID": null,
+                    "systemChannelID": null,
+                    "premiumTier": 0,
+                    "premiumSubscriptionCount": 0,
+                    "verificationLevel": "HIGH",
+                    "explicitContentFilter": "ALL_MEMBERS",
+                    "mfaLevel": 0,
+                    "joinedTimestamp": 1618253851421,
+                    "defaultMessageNotifications": "MENTIONS",
+                    "systemChannelFlags": 0,
+                    "maximumMembers": 100000,
+                    "maximumPresences": null,
+                    "approximateMemberCount": null,
+                    "approximatePresenceCount": null,
+                    "vanityURLCode": null,
+                    "vanityURLUses": null,
+                    "description": null,
+                    "banner": null,
+                    "rulesChannelID": "830168098602614785",
+                    "publicUpdatesChannelID": "830168098602614786",
+                    "preferredLocale": "en-US",
+                    "ownerID": "826893726864506880",
+                    "emojis": [
+                        "830172158234853386",
+                        "830172268541640724",
+                        "830172297188868126"
+                    ],
+                    "createdTimestamp": 1617997898240,
+                    "nameAcronym": "CVL",
+                    "iconURL": "https://cdn.discordapp.com/icons/830168097578156144/aff8aa2430770548e8cbd5d884967875.webp",
+                    "splashURL": null,
+                    "discoverySplashURL": null,
+                    "bannerURL": null
+                }
+            },
+            "roles": {
+                "cache": [
+                    {
+                        "id": "830168097578156144",
+                        "name": "@everyone",
+                        "color": 0,
+                        "hoist": false,
+                        "rawPosition": 0,
+                        "permissions": 104189505,
+                        "managed": false,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "830169763744972851",
+                        "name": "MEE6",
+                        "color": 0,
+                        "hoist": false,
+                        "rawPosition": 6,
+                        "permissions": 1916267615,
+                        "managed": true,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "830261298234916934",
+                        "name": "Rythm",
+                        "color": 0,
+                        "hoist": false,
+                        "rawPosition": 5,
+                        "permissions": 8,
+                        "managed": true,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "831240141766000672",
+                        "name": "Rythm 2",
+                        "color": 0,
+                        "hoist": false,
+                        "rawPosition": 3,
+                        "permissions": 3457096,
+                        "managed": true,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "831241642878304307",
+                        "name": "Eternity",
+                        "color": 0,
+                        "hoist": false,
+                        "rawPosition": 7,
+                        "permissions": 8,
+                        "managed": true,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "831641719678173213",
+                        "name": "🌟creator😎",
+                        "color": 12745742,
+                        "hoist": false,
+                        "rawPosition": 2,
+                        "permissions": 104320585,
+                        "managed": false,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "831641721615286302",
+                        "name": "🌟administrative😊",
+                        "color": 2123412,
+                        "hoist": false,
+                        "rawPosition": 1,
+                        "permissions": 1341652803,
+                        "managed": false,
+                        "mentionable": false,
+                        "deleted": false
+                    },
+                    {
+                        "id": "831641721879396403",
+                        "name": "😊Higher Ranked Viberz😊",
+                        "color": 15277667,
+                        "hoist": false,
+                        "rawPosition": 4,
+                        "permissions": 104291905,
+                        "managed": false,
+                        "mentionable": false,
+                        "deleted": false
+                    }
+                ],
+                "guild": {
+                    "members": [
+                        "159985870458322944",
+                        "235088799074484224",
+                        "252128902418268161",
+                        "497582225563451404",
+                        "547145997395034135",
+                        "729864813467140206",
+                        "822105903599058994",
+                        "826893726864506880"
+                    ],
+                    "channels": [
+                        "831641732452974673",
+                        "830168098602614785",
+                        "831641727436587039",
+                        "831641734017843261",
+                        "831641723272822845",
+                        "831641724203434024",
+                        "831641737306439731",
+                        "831641742548795403",
+                        "831641729974927371",
+                        "831641725625565204",
+                        "831641739274092605",
+                        "831641737839640597",
+                        "831641731686465628",
+                        "831641740141920286",
+                        "831641729425735711",
+                        "831641725180706826",
+                        "831641725650599967",
+                        "831641731119317073",
+                        "831641736840871956",
+                        "831641742062125126",
+                        "831641733611520032",
+                        "831641735566196827",
+                        "831641726166761514",
+                        "831641741663797358",
+                        "831641738749149204",
+                        "831641730876178472",
+                        "831641727886032896",
+                        "831641728447545394",
+                        "831641732982243348",
+                        "831641737025814569",
+                        "831641740887851009",
+                        "831641739366236212",
+                        "831641736291156008",
+                        "831641733221056513",
+                        "831641735222132816",
+                        "831641728984285195",
+                        "831641740636717076",
+                        "831641724618801163",
+                        "831641734379208715",
+                        "831641726996840508",
+                        "831641742969143356",
+                        "830168098602614786"
+                    ],
+                    "roles": [
+                        "830168097578156144",
+                        "830169763744972851",
+                        "830261298234916934",
+                        "831240141766000672",
+                        "831241642878304307",
+                        "831641719678173213",
+                        "831641721615286302",
+                        "831641721879396403"
+                    ],
+                    "deleted": false,
+                    "id": "830168097578156144",
+                    "shardID": 0,
+                    "name": "Chill Vibes Lounge",
+                    "icon": "aff8aa2430770548e8cbd5d884967875",
+                    "splash": null,
+                    "discoverySplash": null,
+                    "region": "us-west",
+                    "memberCount": 8,
+                    "large": false,
+                    "features": [
+                        "WELCOME_SCREEN_ENABLED",
+                        "COMMUNITY",
+                        "NEWS"
+                    ],
+                    "applicationID": null,
+                    "afkTimeout": 3600,
+                    "afkChannelID": null,
+                    "systemChannelID": null,
+                    "premiumTier": 0,
+                    "premiumSubscriptionCount": 0,
+                    "verificationLevel": "HIGH",
+                    "explicitContentFilter": "ALL_MEMBERS",
+                    "mfaLevel": 0,
+                    "joinedTimestamp": 1618253851421,
+                    "defaultMessageNotifications": "MENTIONS",
+                    "systemChannelFlags": 0,
+                    "maximumMembers": 100000,
+                    "maximumPresences": null,
+                    "approximateMemberCount": null,
+                    "approximatePresenceCount": null,
+                    "vanityURLCode": null,
+                    "vanityURLUses": null,
+                    "description": null,
+                    "banner": null,
+                    "rulesChannelID": "830168098602614785",
+                    "publicUpdatesChannelID": "830168098602614786",
+                    "preferredLocale": "en-US",
+                    "ownerID": "826893726864506880",
+                    "emojis": [
+                        "830172158234853386",
+                        "830172268541640724",
+                        "830172297188868126"
+                    ],
+                    "createdTimestamp": 1617997898240,
+                    "nameAcronym": "CVL",
+                    "iconURL": "https://cdn.discordapp.com/icons/830168097578156144/aff8aa2430770548e8cbd5d884967875.webp",
+                    "splashURL": null,
+                    "discoverySplashURL": null,
+                    "bannerURL": null
+                }
+            }
+        }
+    },
+    "watch-oldid-830168098602614784": "831643298622996480",
+    "watch-oldid-830168098602614785": "831643298820128780",
+    "watch-oldid-830168098602614786": "831643299625828392",
+    "watch-oldid-830168098602614788": "831643299810115615",
+    "watch-oldid-830168098602614789": "831643300234002453",
+    "watch-oldid-830168098602614792": "831643301010604052",
+    "watch-oldid-830168098602614793": "831643301706465280",
+    "watch-oldid-830168098937503815": "831643302008586282",
+    "watch-oldid-830168098937503816": "831643302725025832",
+    "watch-oldid-830168502185754625": "831643303182336085",
+    "watch-oldid-830168812711182386": "831643303803748352",
+    "watch-oldid-830170762445979699": "831643304231174204",
+    "watch-oldid-830171569749229600": "831643304667512862",
+    "watch-oldid-830171633271963668": "831643305237676083",
+    "watch-oldid-830171753568796683": "831643305712156733",
+    "watch-oldid-830173593970540554": "831641740887851009",
+    "watch-oldid-830183945551347762": "831643306151641089",
+    "watch-oldid-830275593459204136": "831643306294247516",
+    "watch-oldid-830281346961637407": "831643306916184065",
+    "watch-oldid-830281376082165790": "831643307679416329",
+    "831642974856937552-snipe": {
+        "id": "729864813467140206",
+        "name": "Crosis#0001",
+        "content": "e!deletechannel <#830281346961637407>",
+        "time": 1618349602384
+    }
 }

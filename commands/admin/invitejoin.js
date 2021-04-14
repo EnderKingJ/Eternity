@@ -32,7 +32,8 @@ module.exports = (client) => {
 		const invitesAfter = await getInvites(guild);
 		for (const i in invitesAfter) {
 			if (invitesBefore[i] === invitesAfter[i] - 1) {
-				const test = guildInfo.get("invites") || {};
+				let test = guildInfo.get("invites");
+				if (!test) test = {};
 				test[i] = (test[i] || 0) + 1
 				guildInfo.set("invites", test);
 				const count = test[i];
