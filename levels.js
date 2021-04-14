@@ -1,10 +1,10 @@
 module.exports.run = (client) => {
 	client.on('message', message => {
 		const { guild, member } = message
-
-		addXP(guild.id, member.id, 23, message)
+		if (message.author.bot) return;
+		addXP(guild.id, message.author.id, 23, message)
 	})
-	const getNeededXP = (level) => level * level * 80;
+	const getNeededXP = (level) => level * level * 70;
 	const addXP = async (guildId, userId, xpToAdd, message) => { 
 		const JSONdb = require(`simple-json-db`);
 		const guildInfo = new JSONdb(`./servers/${guildId}.json`);

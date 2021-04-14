@@ -18,6 +18,7 @@ for (const folder of commandFolders) {
 	}	
 }
 const { sync } = require(`./sync.js`);
+const { run } = require(`./levels.js`)
 const antiad = require(`./commands/admin/ad.js`);
 // 819283598879883334
 process.on('UnhandledPromiseRejectionWarning', error => {
@@ -91,6 +92,7 @@ client.on(`guildDelete`, async guild => {
 const inviteJoin = require(`./commands/admin/invitejoin.js`);
 
 client.once('ready', () => {
+	run(client);
 	antiad.start(client);
 	inviteJoin(client);
 	log(client);

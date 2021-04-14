@@ -2,5 +2,12 @@
     "prefix": "e!",
     "invites": {
         "Cuti3Girl#1350": 2
+    },
+    "levelusers": {
+        "422429573192351767": {
+            "xp": 23,
+            "mtime": 1618419389605,
+            "level": 1
+        }
     }
 }

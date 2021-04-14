@@ -6,5 +6,23 @@
         "name": "LenderSchlender#2378",
         "content": "pls profile 729864813467140206",
         "time": 1618304538982
+    },
+    "806804954765459459-snipe": {
+        "id": "464494342875250688",
+        "name": "LenderSchlender#2378",
+        "content": "pls rich",
+        "time": 1618415635731
+    },
+    "levelusers": {
+        "464494342875250688": {
+            "xp": 23,
+            "mtime": 1618418541853,
+            "level": 1
+        },
+        "773496227211116554": {
+            "xp": 23,
+            "mtime": 1618418542265,
+            "level": 1
+        }
     }
 }

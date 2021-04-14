@@ -62,7 +62,13 @@ module.exports = {
 			const msg = await message.channel.send(`Creating chatlog, this may take a bit...`).then(m => m);
 			const messages = [];
 			const message1 = number > 100 ? await getMessages(channel, number) : await channel.messages.fetch({limit : number, before: message.id});
-			chatlogs[name] = message1;
+			let message2 = message1.map(msg => {
+				return {
+					authorID: msg.author.id,
+					content: msg.content
+				}
+			})
+			chatlogs[name] = message2
 			guildInfo.set("chatlogs", chatlogs);
 			let names = guildInfo.get("logsnames") || []
 			names.push(name)
@@ -72,7 +78,8 @@ module.exports = {
 		else if (action === "read") {
 			console.log(deletename)
 			if (!chatlogs[deletename]) return message.channel.send(`There is no backup with this name.`);
-			let logs = chatlogs[deletename].map(msg => msg);
+			let logs = chatlogs[deletename]
+			console.log(logs);
 			let messages = ""
 			for (i = 0; i < logs.length; i++) {
 				if (guild.members.cache.get(logs[i].authorID)) {

@@ -17,7 +17,7 @@ module.exports = {
 		args.shift()
 		args.shift()
 		const role1 = args[1] ? args.join(' ') : args[0];
-		const role = await guild.roles.create({
+		const role = message.mentions.roles.first() || await guild.roles.create({
 			data: {
 				name: role1
 			}

@@ -5,29 +5,35 @@ module.exports = {
 		const { guild, member } = message;
 		const JSONdb = require(`simple-json-db`);
 		const guildInfo = new JSONdb(`./servers/${guild.id}.json`);
+		const axios = require(`axios`);
+
 		const cases = message.mentions.users.first() || message.author;
 		const users = guildInfo.get("levelusers") || {};
-		const userInfo = users[cases] || {};
+		const userInfo = users[cases.id] || {};
 		const getNeededXP = (level) => { 
 			return level ** 2 * 80;//80l^2!?
 		}
 		const xp = userInfo["xp"] || 0;
 		const level = userInfo["level"] || 1;
-		const canvacord = require(`canvacord`);
-		const rank = new canvacord.Rank()//rank? more like h
-			.setAvatar(cases.displayAvatarURL({ dynamic: true }))
-			.setCurrentXP(xp)
+		const canvas = require(`discord-canvas`);
+		const url = cases.displayAvatarURL({dynamic: true, format: 'png'})
+		console.log(url)
+		const fs = require(`fs`);
+			//quoi!?
+		const rank = await new canvas.RankCard()
+			.setXP("current", xp)
+			.setAvatar(url)
+			.setXP("needed", getNeededXP(level))
 			.setLevel(level)
-			.setNeededXP(getNeededXP(level))
-			.setUsername(cases.username)
-			.setDiscriminator(cases.discriminator)
-			.setProgressBar(`#FFFFFF`, "GRADIENT", true);
+			.setUsername(cases.tag)//bruh just use tag
+			.toAttachment();
 		const Discord = require(`discord.js`);
-		rank.build().then(data => {
-			const attachment = new Discord.MessageAttachment(data, `rankcard.png`);
-			message.channel.send(attachment).catch(error => {
-				console.log(`permission error`);
-			});
-		})
+		const attachment = new Discord.MessageAttachment(rank.toBuffer(), 'rankcard.png')
+		message.channel.send(attachment).then(() => {
+			console.log("h");
+		}, () => {
+			console.log("no e");
+		});
+		// :pray:
 	}
 }
