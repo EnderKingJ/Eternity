@@ -9,7 +9,7 @@
     "verification": true,
     "joinchannel": "812811726457143326",
     "invites": {
-        "Crosis#0001": 1
+        "Crosis#0001": 0
     },
     "invitedby": {
         "J'existe": "Crosis#0001",
@@ -19,5 +19,12 @@
     "bypasspos": 10,
     "antiad": true,
     "801527633283907584warns": 1,
-    "612501029753192469warns": 54
+    "612501029753192469warns": 54,
+    "levelusers": {
+        "801527633283907584": {
+            "xp": 27,
+            "mtime": 1618504918576,
+            "level": 1
+        }
+    }
 }

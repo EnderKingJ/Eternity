@@ -12,6 +12,8 @@ module.exports = (client) => {
 					inviteCounter[name] = (inviteCounter[name] || 0) + uses;
 				})
 				resolve(inviteCounter);
+			}).catch(error => {
+				
 			})
 		})
 	}
@@ -42,7 +44,9 @@ module.exports = (client) => {
 					return channel.id === guildInfo.get("joinchannel");
 				});
 				console.log(guildInfo.get("joinmessage"))
-				channel.send(`${guildInfo.get("joinmessage") || "Welcome"} <@${id}> invited by ${i} (`  + count  + `) invites.`).catch(console.error);
+				if (channel) channel.send(`${guildInfo.get("joinmessage") || "Welcome"} <@${id}> invited by ${i} (`  + count  + `) invites.`).catch(error => {
+					
+				});
 				let test2 = guildInfo.get("invitedby") || {};
 				test2[`${username}#${discriminator}`] = `${i}`
 				guildInfo.set("invitedby", test2)

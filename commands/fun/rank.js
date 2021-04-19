@@ -11,7 +11,7 @@ module.exports = {
 		const users = guildInfo.get("levelusers") || {};
 		const userInfo = users[cases.id] || {};
 		const getNeededXP = (level) => { 
-			return level ** 2 * 80;//80l^2!?
+			return level ** 2 * 50;//80l^2!?
 		}
 		const xp = userInfo["xp"] || 0;
 		const level = userInfo["level"] || 1;

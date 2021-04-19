@@ -1,0 +1,48 @@
+{
+	"huntingrifle": {
+		"price": 12000,
+		"sell": 1200,
+		"shop": true,
+		"displayname": "Hunting Rifle",
+		"description": "Those poor birds...",
+		"plural": "huntingrifles"
+	},
+	"fishingpole": {
+		"price": 10000,
+		"sell": 1000,
+		"shop": true,
+		"displayname": "Fishing Pole",
+		"description": "So quiet. So peaceful. So- HOLY SHT IS THAT A DOLPHIN",
+		"plural": "fishingpoles"
+	},
+	"fish": {
+		"displayname": "Common Fish",
+		"description": "Those little fishies at the bottom of the lake.",
+		"sell": 200,
+		"plural": "fish"
+	},
+	"legendaryfish": {
+		"displayname": "Legendary Fish",
+		"description": "VERY BIG FISH",
+		"sell": 10000,
+		"plural": "legendaryfish"
+	},
+	"bear": {
+		"displayname": "Bear",
+		"description": "RUN AWAYYYY",
+		"sell": 2000,
+		"plural": "bears"
+	},
+	"bird": {
+		"displayname": "Birdie",
+		"description": "Be free bir- BAM!",
+		"sell": 800,
+		"plural": "birds"
+	},
+	"box": {
+		"displayname": "Box",
+		"description": "It's just a box…",
+		"sell": 500,
+		"plural": "boxes"
+	}
+}

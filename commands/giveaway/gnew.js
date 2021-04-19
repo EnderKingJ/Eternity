@@ -33,7 +33,6 @@ module.exports = {
 			.setTitle(`Giveaway Ended`)
 			.setDescription(`**${reward}** \nReact with 🎉 to enter!\n Time: Ended.`);
 		if (time12 !== true) {
-			channel.send(`@here`);
 			channel.send(embed).then(msg => {
 				msg.react(`🎉`);
 				let users = [];
@@ -48,7 +47,6 @@ module.exports = {
 				})
 				async function edit() {
 					msg.edit(embed2);
-					msg.channel.send(`@here`);
 					msg.channel.send(`<@${users[getRandomInt(users.length)]}> won the ${reward}!`);
 					guildInfo.set(`gwinners`, users);
 				}

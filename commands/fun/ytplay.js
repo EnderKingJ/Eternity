@@ -1,5 +1,5 @@
 module.exports = {
-	name: 'ytplay',
+	name: 'play',
 	args: true,
 	usage: `<yt url>`,
 	description: `Play the audio from a yt video or search.`,

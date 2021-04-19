@@ -10,6 +10,7 @@ module.exports = {
 		const { guild, channel } = message;
 		const JSONdb = require(`simple-json-db`);
 		const guildInfo = new JSONdb(`./servers/${guild.id}.json`);
+		const Discord = require(`discord.js`);
 		const action = args[0];
 		const number = parseInt(args[1]);
 		const deletename = args[1];
@@ -40,7 +41,16 @@ module.exports = {
 			return sum_messages;
 		}
 		if (action === "list") {
-			message.channel.send(`${guildInfo.get("logsnames") ? `Your chatlogs are: ${guildInfo.get("logsnames")[1] ? guildInfo.get("logsnames").join(', ') : guildInfo.get("logsnames")[0] }` : "No chatlogs were found."}`)
+			if (!chatlogs) return message.channel.send(`You have no chatlogs.`)
+			let response = ""
+			for (var i in chatlogs) {
+				response += `${i}, `
+			}
+			const embed = new Discord.MessageEmbed()
+				.setTitle(`Your chatlogs`)
+				.setAuthor(message.client.user.tag, message.client.user.displayAvatarURL({ dynamic: true }))
+				.setDescription(response);
+			message.channel.send(embed);
 		}
 		else if (action === "delete") {
 			if (!chatlogs[deletename]) return message.channel.send(`There is no chatlog with that name.`);
@@ -79,20 +89,60 @@ module.exports = {
 			console.log(deletename)
 			if (!chatlogs[deletename]) return message.channel.send(`There is no backup with this name.`);
 			let logs = chatlogs[deletename]
-			console.log(logs);
-			let messages = ""
+			let messages1 = ""
 			for (i = 0; i < logs.length; i++) {
 				if (guild.members.cache.get(logs[i].authorID)) {
 					const { user } = guild.members.cache.get(logs[i].authorID)
 					if (user) {
-						messages += `${user.username}#${user.discriminator}: ${logs[i].content}\n`
+						messages1 += `<@${user.id}>: ${logs[i].content}\n`
 					}
 				}
 			}
-			messages = messages.split("\n");
-			messages.reverse()
-			messages = messages.join('\n');
-			message.channel.send(`${messages}`, { split: true, disableMentions: 'all'});
+			messages1 = messages1.split("\n");
+			messages1.reverse()
+			let messages = [];
+			for (var e in messages1) {
+				messages.push(messages1[e]);
+			}
+			// a
+			let start1 = 0
+			console.log(messages.slice(start1, start1 + 10));
+			const generateEmbed = start => {
+				const current = messages.slice(start, start + 10);
+				let desc = "";
+				current.forEach(g => {
+					desc += `${g}\n`;
+					console.log(g);
+				});
+				const embed = new Discord.MessageEmbed()
+				  .setDescription(desc)
+					.setTitle(`Chatlog ${deletename}`);
+				return embed
+			}
+			const author = message.author
+
+			message.channel.send(generateEmbed(0)).then(message => {
+				if (messages.length <= 10) return
+				message.react('➡️')
+				const collector = message.createReactionCollector(
+					(reaction, user) => ['⬅️', '➡️'].includes(reaction.emoji.name) && user.id === author.id,
+					{time: 60000}
+				)
+
+				let currentIndex = 0
+				collector.on('collect', reaction => {
+					// remove the existing reactions
+					message.reactions.removeAll().then(async () => {
+						// increase/decrease index
+						reaction.emoji.name === '⬅️' ? currentIndex -= 5 : currentIndex += 10
+						// edit message with new embed
+						message.edit(generateEmbed(currentIndex))
+						if (currentIndex !== 0) await message.react('⬅️')
+						if (currentIndex + 10 < messages.length) message.react('➡️')
+					})
+				})
+			})
+			// b
 		}
 		else if (action === "fileread") {
 			console.log(deletename)

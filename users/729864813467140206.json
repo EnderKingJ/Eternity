@@ -1,0 +1,11 @@
+{
+    "coins": 3299844,
+    "booster": true,
+    "items": {
+        "fishingpole": 2,
+        "huntingrifle": 1,
+        "fish": 36,
+        "bird": 1,
+        "bear": 0
+    }
+}

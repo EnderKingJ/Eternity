@@ -1,3 +1,9 @@
 {
-    "prefix": "e!"
+    "prefix": "e!",
+    "invites": {
+        "Dankers server#6273": 0
+    },
+    "invitedby": {
+        "Skyolp#7177": "Dankers server#6273"
+    }
 }

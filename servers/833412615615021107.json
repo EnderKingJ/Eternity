@@ -1,0 +1,27 @@
+{
+    "prefix": "e!",
+    "833413709274546276-snipe": {
+        "id": "646937666251915264",
+        "name": "Karuta#1280",
+        "content": "👋 **Thank you for adding <@646937666251915264> to your server!**\nTo enable card drops in this server, please set the active Karuta channel by using the `k!set` command in a channel of your choice.\n\nFor more information on how to use this bot, use the `k!help` command. Feel free to join the support server for additional help: https://discord.gg/karuta",
+        "time": 1618825049769
+    },
+    "833437782625484850-snipe": {
+        "id": "159985870458322944",
+        "name": "MEE6#4876",
+        "content": "",
+        "time": 1618825718963
+    },
+    "833587865291849728-snipe": {
+        "id": "723274493040001105",
+        "name": "!DarkKing#1945",
+        "content": "fuck",
+        "time": 1618827108916
+    },
+    "invites": {
+        "!DarkKing#1945": 1
+    },
+    "invitedby": {
+        "ColorDead#3081": "!DarkKing#1945"
+    }
+}

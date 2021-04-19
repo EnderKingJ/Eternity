@@ -1,7 +1,8 @@
 {
     "prefix": "e!",
     "invites": {
-        "Cuti3Girl#1350": 2
+        "Cuti3Girl#1350": 2,
+        "Partner Bot#1001": 1
     },
     "levelusers": {
         "422429573192351767": {
@@ -9,5 +10,9 @@
             "mtime": 1618419389605,
             "level": 1
         }
+    },
+    "invitedby": {
+        "totoroki-kun#2686": "Partner Bot#1001",
+        "Musicorum#6086": "Partner Bot#1001"
     }
 }

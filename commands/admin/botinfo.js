@@ -2,7 +2,7 @@ module.exports = {
 	name: 'botinfo',
 	usage: '',
 	description: `Get the info for Eternity`,
-	execute(message, args, client) {
+	async execute(message, args, client) {
 		let totalSeconds = (client.uptime / 1000);
 		let days = Math.floor(totalSeconds / 86400);
 		totalSeconds %= 86400;
@@ -14,13 +14,12 @@ module.exports = {
 		const JSONdb = require(`simple-json-db`);
 		const clientInfo = new JSONdb(`./client.json`);
 		const guildInfo = new JSONdb(`./servers/${message.guild.id}.json`);
-		let users = 0
-		client.guilds.cache.forEach(guild => {
-			guild.members.cache.forEach(member => {
-				users += 1
-			})
-		})
-		const servers = clientInfo.get("servers");
+		let servers = await client.shard.fetchClientValues(`guilds.cache.size`)
+		console.log(servers)
+		servers = servers.reduce((acc, usercount) => acc + usercount, 0)
+		let users = await client.shard.fetchClientValues(`users.cache.size`)
+		users = users.reduce((acc, usercount) => acc + usercount, 0)
+
 		const Discord = require(`discord.js`);
 		let date = (data) => new Date(Date.now() - data)
 		const embed = new Discord.MessageEmbed()

@@ -6,7 +6,7 @@ module.exports = {
 		const { guild } = message
 		const exampleEmbed1 = new Discord.MessageEmbed()
 			.setColor('#0099ff')
-			.setDescription('https://eternity.geplcord.rf.gd/\nVote for us on [top.gg](https://top.gg/bot/822105903599058994/vote)!')
+			.setDescription('https://eternitydc.xyz/\nVote for us on [top.gg](https://top.gg/bot/822105903599058994/vote)!')
 			.addFields([
 				{
 					name: 'What we have to offer.',

@@ -1,13 +1,13 @@
 {
     "prefix": "e!",
     "invites": {
-        "champagnepapi🤍#2705": 11
+        "champagnepapi🤍#2705": 18
     },
     "831618855855325205-snipe": {
-        "id": "282859044593598464",
-        "name": "ProBot ✨#5803",
-        "content": "",
-        "time": 1618422388269
+        "id": "703580622010056744",
+        "name": "champagnepapi🤍#2705",
+        "content": ".joinmessage",
+        "time": 1618508633990
     },
     "831618636972032090-snipe": {
         "id": "155149108183695360",
@@ -17,9 +17,9 @@
     },
     "levelusers": {
         "703580622010056744": {
-            "xp": 598,
-            "mtime": 1618423740301,
-            "level": 3
+            "xp": 837,
+            "mtime": 1618493604653,
+            "level": 7
         },
         "780566461848223785": {
             "xp": 23,
@@ -29,6 +29,31 @@
         "327250738507939850": {
             "xp": 23,
             "mtime": 1618421595292,
+            "level": 1
+        },
+        "437376276051918848": {
+            "xp": 23,
+            "mtime": 1618429745763,
+            "level": 1
+        },
+        "550613223733329920": {
+            "xp": 104,
+            "mtime": 1618491058879,
+            "level": 3
+        },
+        "822105903599058994": {
+            "xp": 0,
+            "mtime": 1618490762035,
+            "level": 2
+        },
+        "159985870458322944": {
+            "xp": 45,
+            "mtime": 1618490584003,
+            "level": 1
+        },
+        "716390085896962058": {
+            "xp": 44,
+            "mtime": 1618490737747,
             "level": 1
         }
     },
@@ -47,13 +72,24 @@
     "831945082495172668-snipe": {
         "id": "703580622010056744",
         "name": "champagnepapi🤍#2705",
-        "content": ":-🇧🇦",
-        "time": 1618421615520
+        "content": "<:r_omg:816442022067175464>",
+        "time": 1618537022640
     },
     "831945059434758264-snipe": {
-        "id": "235148962103951360",
-        "name": "Carl-bot#1536",
-        "content": "nanana",
-        "time": 1618424623673
+        "id": "703580622010056744",
+        "name": "champagnepapi🤍#2705",
+        "content": ".joinmessa ge embed Dobro dosao/la {user:mention} na {guild:name} ({guild:members clanova}), invitean/a si od strane {inviter:mention} ({inviter:invites:total} invites) <:Cunami:832262097396170762>",
+        "time": 1618508803247
+    },
+    "829863484451848205-snipe": {
+        "id": "703580622010056744",
+        "name": "champagnepapi🤍#2705",
+        "content": "<a:b_cutebeba:806640262184828928>",
+        "time": 1618535453754
+    },
+    "invitedby": {
+        "dejana#2700": "champagnepapi🤍#2705",
+        "šejma#0003": "champagnepapi🤍#2705",
+        "Hurmica♡#5555": "champagnepapi🤍#2705"
     }
 }

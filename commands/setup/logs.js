@@ -81,7 +81,7 @@ module.exports = client => {
 		const embed = new Discord.MessageEmbed()
 			.setDescription(`<@${logs.target.id}> was banned by <@${logs.executor.id}> for ${logs.reason}`);
 		const channel = guild.channels.cache.get(logid);
-		channel.send(embed).catch(error => console.log(`oops`));
+		if (channel) channel.send(embed)
 	})
 
 	//end of ban logging
@@ -101,7 +101,7 @@ module.exports = client => {
 		const embed = new Discord.MessageEmbed()
 			.setDescription(`<@${logs.target.id}> was unbanned by <@${logs.executor.id}> for ${logs.reason}`);
 		const channel = guild.channels.cache.get(logid);
-		channel.send(embed);
+		if (channel) channel.send(embed);
 	})
 
 	//End of unban logging

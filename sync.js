@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports.sync = (client) => {
 	const Discord = require(`discord.js`);
 	const fs = require(`fs`);
@@ -188,7 +190,9 @@ module.exports.sync = (client) => {
 			}
 		})
 		client.on("channelCreate", async channel => {
+			if (channel.partial) await channel.fetch()
 			const { guild } = channel;
+			if (!guild) return;
 			const guildInfo = new JSONdb(`./servers/${guild.id}.json`);
 			if (!guildInfo.get("verification") || guildInfo.get("verification") !== true) return;
 			let role = guild.roles.cache.find(rolee => {
@@ -234,8 +238,9 @@ module.exports.sync = (client) => {
 	}
 
 
-	client.on(`message`, message => {
+	client.on(`message`, async message => {
 		const { guild } = message;
+		if (!guild) return;
 		const guildInfo = new JSONdb(`./servers/${guild.id}.json`);
 		if (!guildInfo.get("afkusers")) return;
 		const afkUsers = guildInfo.get("afkusers");
@@ -250,6 +255,7 @@ module.exports.sync = (client) => {
 
 
 	client.on(`messageDelete`, async message => {
+		if (!message.member) return;
 		if (message.member.bot) return;
 		const { guild } = message;
 		const guildInfo = new JSONdb(`./servers/${guild.id}.json`)

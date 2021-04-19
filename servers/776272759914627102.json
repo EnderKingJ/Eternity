@@ -1,6 +1,257 @@
 {
     "prefix": "e!",
     "invites": {
-        "[v.] SpecorNight Bot#4030": 1
+        "[v.] SpecorNight Bot#4030": 1,
+        "Selim#2454": 0
+    },
+    "leveltoggle": true,
+    "levelusers": {
+        "729864813467140206": {
+            "xp": 956,
+            "mtime": 1618723375026,
+            "level": 5
+        },
+        "799415670147776573": {
+            "xp": 730,
+            "mtime": 1618618760679,
+            "level": 4
+        },
+        "833034298567295007": {
+            "xp": 36,
+            "mtime": 1618681334742,
+            "level": 1
+        },
+        "422341017992298506": {
+            "xp": 0,
+            "mtime": 1618681919845,
+            "level": 2
+        },
+        "342594003318865921": {
+            "xp": 33,
+            "mtime": 1618681415491,
+            "level": 1
+        },
+        "287269867474780171": {
+            "xp": 36,
+            "mtime": 1618681977289,
+            "level": 1
+        },
+        "822832154475626516": {
+            "xp": 25,
+            "mtime": 1618682149396,
+            "level": 1
+        }
+    },
+    "chatlogs": {
+        "watchthis": [
+            {
+                "authorID": "729864813467140206",
+                "content": "havent added hunt or fishing yet"
+            },
+            {
+                "authorID": "822105903599058994",
+                "content": ""
+            },
+            {
+                "authorID": "729864813467140206",
+                "content": "e!shop"
+            },
+            {
+                "authorID": "822105903599058994",
+                "content": ""
+            },
+            {
+                "authorID": "729864813467140206",
+                "content": "e!daily"
+            },
+            {
+                "authorID": "822105903599058994",
+                "content": ""
+            },
+            {
+                "authorID": "729864813467140206",
+                "content": "e!beg"
+            },
+            {
+                "authorID": "822105903599058994",
+                "content": ""
+            },
+            {
+                "authorID": "729864813467140206",
+                "content": "e!bal"
+            },
+            {
+                "authorID": "822105903599058994",
+                "content": ""
+            },
+            {
+                "authorID": "799415670147776573",
+                "content": "e!rank"
+            },
+            {
+                "authorID": "799415670147776573",
+                "content": "TF"
+            },
+            {
+                "authorID": "799415670147776573",
+                "content": "BRO"
+            },
+            {
+                "authorID": "729864813467140206",
+                "content": ":)"
+            },
+            {
+                "authorID": "822105903599058994",
+                "content": ""
+            },
+            {
+                "authorID": "729864813467140206",
+                "content": "e!rank"
+            },
+            {
+                "authorID": "822105903599058994",
+                "content": "GG <@729864813467140206>, you reached level 2"
+            },
+            {
+                "authorID": "822105903599058994",
+                "content": "<@729864813467140206>, Levels are now on."
+            },
+            {
+                "authorID": "729864813467140206",
+                "content": "e!levels on"
+            },
+            {
+                "authorID": "822105903599058994",
+                "content": ""
+            },
+            {
+                "authorID": "729864813467140206",
+                "content": "e!translate English Italian helo"
+            },
+            {
+                "authorID": "729864813467140206",
+                "content": "ohh ik wat I did"
+            },
+            {
+                "authorID": "799415670147776573",
+                "content": "BRUH"
+            },
+            {
+                "authorID": "822105903599058994",
+                "content": ""
+            },
+            {
+                "authorID": "799415670147776573",
+                "content": "e!translate English Italian Hello Guys"
+            },
+            {
+                "authorID": "822105903599058994",
+                "content": ""
+            },
+            {
+                "authorID": "729864813467140206",
+                "content": "e!translate English Italian hello there"
+            },
+            {
+                "authorID": "799415670147776573",
+                "content": "Lies"
+            },
+            {
+                "authorID": "799415670147776573",
+                "content": "WAIT"
+            },
+            {
+                "authorID": "799415670147776573",
+                "content": "lol"
+            },
+            {
+                "authorID": "822105903599058994",
+                "content": "Ciao."
+            },
+            {
+                "authorID": "729864813467140206",
+                "content": "e!translate English Italian hello there"
+            },
+            {
+                "authorID": "799415670147776573",
+                "content": "e!settings"
+            },
+            {
+                "authorID": "799415670147776573",
+                "content": "lol"
+            },
+            {
+                "authorID": "729864813467140206",
+                "content": "nvm it cant"
+            },
+            {
+                "authorID": "729864813467140206",
+                "content": "Imma see if it can auto detect"
+            },
+            {
+                "authorID": "799415670147776573",
+                "content": "\\:O"
+            },
+            {
+                "authorID": "822105903599058994",
+                "content": "Ciao."
+            },
+            {
+                "authorID": "799415670147776573",
+                "content": "e!translate English Italian Hello Guys"
+            },
+            {
+                "authorID": "799415670147776573",
+                "content": "\\:O"
+            },
+            {
+                "authorID": "822105903599058994",
+                "content": "Congratulations soldier <!@729864813467140206> you arrived at level 1"
+            },
+            {
+                "authorID": "799415670147776573",
+                "content": "e!translate Italian English complimenti soldato <@!729864813467140206> sei arrivato al livello 1"
+            },
+            {
+                "authorID": "822105903599058994",
+                "content": "Grazie"
+            },
+            {
+                "authorID": "729864813467140206",
+                "content": "e!translate English Italian thank you"
+            },
+            {
+                "authorID": "729864813467140206",
+                "content": "ohhh italian"
+            },
+            {
+                "authorID": "799415670147776573",
+                "content": "idek"
+            },
+            {
+                "authorID": "729864813467140206",
+                "content": "what language is that?"
+            },
+            {
+                "authorID": "823493848432115743",
+                "content": "complimenti soldato <@729864813467140206> sei arrivato al livello 1"
+            },
+            {
+                "authorID": "729864813467140206",
+                "content": "e!translate English Spanish testing stuf"
+            },
+            {
+                "authorID": "799415670147776573",
+                "content": "Nioceness"
+            }
+        ]
+    },
+    "logsnames": [
+        "watchthis"
+    ],
+    "invitedby": {
+        "BARONUNUZ#1735": "Selim#2454",
+        "Erennn#7823": "Selim#2454",
+        "Anubis#0715": "Selim#2454"
     }
 }
