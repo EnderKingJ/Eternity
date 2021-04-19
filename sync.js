@@ -241,16 +241,22 @@ module.exports.sync = (client) => {
 	client.on(`message`, async message => {
 		const { guild } = message;
 		if (!guild) return;
-		const guildInfo = new JSONdb(`./servers/${guild.id}.json`);
-		if (!guildInfo.get("afkusers")) return;
-		const afkUsers = guildInfo.get("afkusers");
-		if (afkUsers[message.author.id]) { 
-			message.channel.send(`Welcome back, I removed your afk.`);
-			delete afkUsers[message.author.id];
-			return guildInfo.set("afkusers", afkUsers);
+		const id = message.mentions.users.first() ? message.mentions.users.first().id : null;
+
+		const userInfo = new JSONdb(`./users/${message.author.id}.json`);
+		if (userInfo.get("afk")) { 
+			message.reply(`Welcome back, I removed your afk.`);
+			return userInfo.delete("afk")
 		}
 		if (!message.mentions.members) return;
-		if (afkUsers[message.mentions.members.first() ? message.mentions.members.first().user.id : null]) return message.channel.send(`${message.mentions.members.first().user.username}#${message.mentions.members.first().user.discriminator} is afk for ${afkUsers[message.mentions.members.first().id]}`);
+		const uInfo = new JSONdb(`./users/${id}.json`);
+		if (uInfo.get("afk")) {
+			const embed = new Discord.MessageEmbed()
+				.setTitle(`Sorry,`)
+				.setAuthor(message.mentions.users.first().tag, message.mentions.users.first().displayAvatarURL({ dynamic: true }))
+				.setDescription(`<@${id}> is afk for \`${uInfo.get("afk")}\``);
+			message.reply(embed);
+		}
 	})
 
 

@@ -29,6 +29,6 @@ module.exports = {
 		const description = itemInfo['description'];
 		itemEmbed.setTitle(displayName);
 		itemEmbed.setDescription(`ID: \`${itemName}\`\nPrice: ${price}\nSell price: ${sell}\nDescription: ${description}`);
-		message.channel.send(itemEmbed);
+		message.reply(itemEmbed);
 	}
 }

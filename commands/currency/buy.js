@@ -20,11 +20,11 @@ module.exports = {
 			const tRegex = new RegExp(args[0]);
 			if (tRegex.test(itemid)) itemName = itemid.toString();
 		}
-		if (!itemName) return message.channel.send(`Idk what you're on, but I don't see any items named \`${args[0]}\``);
+		if (!itemName) return message.reply(`Idk what you're on, but I don't see any items named \`${args[0]}\``);
 		let iteminfo = shopItems[itemName];
-		if (iteminfo['shop'] !== true) return message.channel.send(`This item can't be bought!`);
+		if (iteminfo['shop'] !== true) return message.reply(`This item can't be bought!`);
 		const price = iteminfo['price'] * amount;
-		if (price > coins) return message.channel.send(`You don't have enough coins for that!`);
+		if (price > coins) return message.reply(`You don't have enough coins for that!`);
 
 		const newBal = coins - price;
 		let itemAmount = parseInt(userItems[itemName]) || 0;
@@ -32,6 +32,6 @@ module.exports = {
 		userItems[itemName] = itemAmount
 		userInfo.set("items", userItems);
 		userInfo.set("coins", newBal);
-		message.channel.send(`Successfully bought ${amount} ${iteminfo['displayname']}(s) for ${price} coins`);
+		message.reply(`Successfully bought ${amount} ${iteminfo['displayname']}(s) for ${price} coins`);
 	}//j'existe
 }

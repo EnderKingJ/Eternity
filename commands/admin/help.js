@@ -4,7 +4,7 @@ const Discord = require('discord.js')
 module.exports = {
 	name: 'help',
 	description: 'List all of my commands or info about a specific command.',
-	usage: '[category] [command name]',
+	usage: '[category/command name]',
 	execute(message, args) {
 		const data = [];
 		const data1 = [];
@@ -86,36 +86,40 @@ module.exports = {
 			})
 			const cats1 = [];
 			const cats = [];
+			let jerry = 0;
 			for (var catname in categories) {
 				cats1.push(categories[catname]);
 			}
-			for (i = 0; i < cats1.length; i += 10) {
-				cats.push(cats1[i / 10].slice(i, i + 10));
+			let b;
+			for (var i = 0; i /*hai*/< cats1.length; i++) {
+				b = i;
+				if (cats1[i].length > 10) b = 0;
+				cats.push(cats1[b].splice(0, 10));
 			}
+			console.log(cats1.length / 10)
 			const generateEmbed = (start) => {
 				const daCmds = [];
 				let categor;
-				const current = cats[0][start]
-				console.log(current);
-				console.log(cats1[0].length)
-				current.forEach(cmd => {
-					daCmds.push(cmd.name);
-					if (!categor) categor = cmd.category;
-				})
-				
+				const current = cats[start]
+				if (current === undefined) console.log(start)
 				const embed = new Discord.MessageEmbed()
-					.setTitle(categor)
 					.setAuthor(message.author.tag,
 					message.author.displayAvatarURL({ dynamic: true }))
 					.setTimestamp(Date.now())
-					.setURL(`https://eternitydc.xyz`)
-					.setDescription(daCmds.join(`,\n`));
+				
+				current.forEach(cmd => {
+					if (!categor) {
+						categor = cmd.category
+						embed.setTitle(categor)
+					}
+					if (cmd.name) embed.addField(cmd.name, cmd.description ? cmd.description : `No description`, true)
+				})
 				return embed
 			}
 			const author = message.author
 
 			message.channel.send(generateEmbed(0)).then(message => {
-				if (cats[0].length <= 1) return
+				if (cats.length <= 1) return
 				message.react('➡️')
 				const collector = message.createReactionCollector(
 					(reaction, user) => ['⬅️', '➡️'].includes(reaction.emoji.name) && user.id === author.id,
@@ -123,16 +127,16 @@ module.exports = {
 				)
 
 				let currentIndex = 0
-				collector.on('collect', reaction => {
+				collector.on('collect', async (reaction, user) => {
 					// remove the existing reactions
-					message.reactions.removeAll().then(async () => {
-						// increase/decrease index
-						reaction.emoji.name === '⬅️' ? currentIndex -= 1 : currentIndex += 1
-						// edit message with new embed
-						message.edit(generateEmbed(currentIndex))
-						if (currentIndex !== 0) await message.react('⬅️')
-						if (currentIndex + 1 < cats[0].length) message.react('➡️')
-					})
+					console.log(reaction)
+					await message.reactions.resolve(reaction.emoji.name).users.remove(user.id);
+					// increase/decrease index
+					reaction.emoji.name === '⬅️' ? currentIndex -= 1 : currentIndex += 1
+					// edit message with new embed
+					message.edit(generateEmbed(currentIndex))
+					if (currentIndex !== 0) await message.react('⬅️')
+					if (currentIndex + 1 < cats.length) message.react('➡️')
 				})
 			})
 		}

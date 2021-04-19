@@ -30,7 +30,7 @@ module.exports = {
 			.setAuthor(author.tag, author.displayAvatarURL({dynamic: true}))
 			.setTitle(getJoke())
 			.setDescription(`You receieved ${addedCoins} coins, congrats!`);
-		message.channel.send(embed);
+		message.reply(embed);
 		userInfo.set("coins", coins);
 	}
 }
