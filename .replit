@@ -1,1 +1,1 @@
-run = "bash main.sh"
+run = "node index.js"

@@ -10,7 +10,7 @@ module.exports = {
 		const shopItems = shopItemsVar.JSON();
 		const Discord = require(`discord.js`);
 		const userItems = userInfo.get("items");
-		if (!userItems['huntingrifle']) return message.reply(`You can't shoot without a rifle!`);
+		if (!userItems['huntingrifle']) return message.channel.send(`You can't shoot without a rifle!`);
 		function randomInt(min, max) {
 			return Math.floor(Math.random() * (max - min)) + min;
 		}

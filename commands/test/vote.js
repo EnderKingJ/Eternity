@@ -4,7 +4,7 @@ module.exports = {
 	execute(message, args) {
 		const { MessageEmbed } = require(`discord.js`);
 		const embed = new MessageEmbed()
-			.setDescription(`[top.gg](https://top.gg/bot/822105903599058994/vote)`);
+			.setDescription(`Vote for me on [top.gg](https://top.gg/bot/822105903599058994/vote) to recieve 30k coins!`);
 		message.channel.send(embed);
 	}
 }

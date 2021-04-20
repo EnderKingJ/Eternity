@@ -1,6 +1,15 @@
 {
     "prefix": "e!",
     "invites": {
-        "PrototypeLimit4#8054": 1
+        "PrototypeLimit4#8054": 0
+    },
+    "invitedby": {
+        "Lord Thanos#5834": "PrototypeLimit4#8054"
+    },
+    "828285650997608458-snipe": {
+        "id": "828303419722301470",
+        "name": "HulkYBN#2452",
+        "content": "Hhh",
+        "time": 1618956097664
     }
 }

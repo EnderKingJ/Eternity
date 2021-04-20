@@ -10,8 +10,8 @@ module.exports.run = (client) => {
 		const userInfo = new JSONdb(`./users/${message.author.id}.json`);
 		if (guildInfo.get("leveltoggle") !== true) return;
 		if (message.author.bot || !guild || !member) return;
-		if (userInfo.get("booster") == true) return addXP(guild.id, message.author.id, 46 + getRandomInt(40), message);
-		addXP(guild.id, message.author.id, 23 + getRandomInt(20), message)
+		if (userInfo.get("booster") == true) return addXP(guild.id, message.author.id, 60 + getRandomInt(60), message);
+		addXP(guild.id, message.author.id, 30 + getRandomInt(30), message)
 	})
 	const getNeededXP = (level) => level * level * 50;
 	const addXP = async (guildId, userId, xpToAdd, message) => { 

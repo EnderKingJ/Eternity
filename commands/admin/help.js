@@ -4,16 +4,15 @@ const Discord = require('discord.js')
 module.exports = {
 	name: 'help',
 	description: 'List all of my commands or info about a specific command.',
-	usage: '[category/command name]',
+	usage: '[command name]',
 	execute(message, args) {
 		const data = [];
 		const data1 = [];
 		const { commands } = message.client;
-		const name = args[1] ? args[1].toLowerCase() : null;
-		const nCategory = args[0] ? args[0].toLowerCase() : null;
+		const name = args[0] ? args[0].toLowerCase() : null;
 		const command = commands.get(name) || commands.find(c => c.aliases && c.aliases.includes(name));
 		const Discord = require(`discord.js`);
-		if (!name && nCategory) {
+		/*if (!name && nCategory) {
 			const cmds = commands.map(c => {
 				return c;
 			})//crosis = gamer
@@ -41,8 +40,8 @@ module.exports = {
 				.setURL(`https://eternitydc.xyz`)
 				.setDescription(daCmds.join(`,\n`));
 			message.channel.send(embed)
-		}
-		else if (name) {
+		}*/
+		if (name) {
 			if (!command) {
 				return message.reply('that\'s not a valid command!');
 			}
@@ -106,37 +105,40 @@ module.exports = {
 					.setAuthor(message.author.tag,
 					message.author.displayAvatarURL({ dynamic: true }))
 					.setTimestamp(Date.now())
-				
+				let desc = `\`\`\`js\n`
 				current.forEach(cmd => {
 					if (!categor) {
 						categor = cmd.category
 						embed.setTitle(categor)
 					}
-					if (cmd.name) embed.addField(cmd.name, cmd.description ? cmd.description : `No description`, true)
+					if (cmd.name) desc += `${cmd.name} - ${cmd.description ? cmd.description : "No description"}\n`;
 				})
+				desc += `\`\`\``
+				embed.setDescription(desc);
 				return embed
 			}
 			const author = message.author
 
-			message.channel.send(generateEmbed(0)).then(message => {
+			message.channel.send(generateEmbed(0)).then(async message => {
+				await message.react('⬅️')
 				if (cats.length <= 1) return
 				message.react('➡️')
 				const collector = message.createReactionCollector(
 					(reaction, user) => ['⬅️', '➡️'].includes(reaction.emoji.name) && user.id === author.id,
-					{time: 60000}
+					{time: 120000}
 				)
 
 				let currentIndex = 0
 				collector.on('collect', async (reaction, user) => {
 					// remove the existing reactions
-					console.log(reaction)
 					await message.reactions.resolve(reaction.emoji.name).users.remove(user.id);
 					// increase/decrease index
 					reaction.emoji.name === '⬅️' ? currentIndex -= 1 : currentIndex += 1
 					// edit message with new embed
+					if (currentIndex < 0) currentIndex += 1;
+					if (currentIndex + 1 > cats.length) currentIndex -= 1;
 					message.edit(generateEmbed(currentIndex))
-					if (currentIndex !== 0) await message.react('⬅️')
-					if (currentIndex + 1 < cats.length) message.react('➡️')
+					console.log()
 				})
 			})
 		}

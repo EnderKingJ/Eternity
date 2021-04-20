@@ -4,7 +4,7 @@ const fs = require('fs');
 const token = process.env.TOKEN
 const Discord = require('discord.js');
 const JSONdb = require(`simple-json-db`);
-const client = new Discord.Client({ partials: ['MESSAGE', 'CHANNEL', 'REACTION', 'USER'], intents: [Discord.Intents.ALL]});
+const client = new Discord.Client({ partials: ['MESSAGE', 'CHANNEL', 'REACTION', 'USER', 'GUILD_MEMBER'], intents: [Discord.Intents.ALL]});
 client.login(token)
 const eventFiles = fs.readdirSync('./events').filter(file => file.endsWith('.js'));
 for (const file of eventFiles) {
@@ -36,7 +36,7 @@ if (client.shard.parentPort) {
 		const user = client.users.cache.get(message.data.voteID);
 		if (!user) return false;
 		else {
-			if (client.channels.cache.get('831197619929481259')) client.channels.cache.get('831197619929481259').send(`${user.tag} voted for Eternity, thanks!`);
+			if (client.channels.cache.get('831197619929481259')) client.channels.cache.get('831197619929481259').send(`${user.tag} voted for Eternity and got \`30k\` coins!`);
 			user.send(`Thanks for voting! You have received your 30k coins, and you can vote again in 12 hours`) 
 			const JSONdb = require(`simple-json-db`);
 			const userInfo = new JSONdb(`./users/${user.id}.json`);

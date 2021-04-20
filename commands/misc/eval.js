@@ -4,7 +4,9 @@ module.exports = {
 	execute(message, args, client) {
   try {
     var result = message.content.trim().split(" ").slice(1).join(" ")
-			let evaled = eval(result)
+			let evaled = eval(result).then(code => {
+				console.log(code);
+			})
 
 			const embed = new Discord.MessageEmbed()
 			

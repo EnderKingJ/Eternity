@@ -107,6 +107,7 @@ module.exports = client => {
 	//End of unban logging
 
 	client.on(`channelCreate`, async channel => {
+		if (channel.partial) await channel.fetch()
 		const { guild } = channel;
 		const guildInfo = new JSONdb(`./servers/${guild.id}.json`);
 		const logid = guildInfo.get("logid");

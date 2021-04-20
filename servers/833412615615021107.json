@@ -19,9 +19,10 @@
         "time": 1618827108916
     },
     "invites": {
-        "!DarkKing#1945": 1
+        "!DarkKing#1945": 2
     },
     "invitedby": {
-        "ColorDead#3081": "!DarkKing#1945"
+        "ColorDead#3081": "!DarkKing#1945",
+        "duck#2946": "!DarkKing#1945"
     }
 }

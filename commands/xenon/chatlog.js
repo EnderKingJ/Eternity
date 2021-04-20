@@ -2,7 +2,7 @@ const fs = require(`fs`);
 module.exports = {
 	name: 'chatlog',
 	args: true,
-	usage: `<create, read, list, fileread, or delete> <number of messages or name of log (for deleting/reading)> <name of log (no spaces)>`,
+	usage: `<create, read, list, fileread, or delete> <number of messages or name of log (for deleting/reading)> <name of log)>`,
 	minArgs: 1,
 	permissions: `MANAGE_GUILD`,
 	description: `Create / delete a chatlog.`,
@@ -16,8 +16,7 @@ module.exports = {
 		const deletename = args[1];
 		args.shift();
 		args.shift();
-		const name = args[0]
-		if (args[1]) return message.channel.send(`There cannot be spaces in the name`)
+		const name = args[1] ? args.join(' ') : args[0];
 		const chatlogs = guildInfo.get(`chatlogs`) || {};
 		console.log(action);
 		if (action !== "create" && action !== "delete" && action !== "read" && action !== "list" && action !== "fileread") return message.channel.send(`Please put create, read, fileread, list, or delete.`);
