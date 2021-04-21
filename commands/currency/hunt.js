@@ -1,6 +1,6 @@
 module.exports = {
 	name: `hunt`,
-	description: `COME HERE FISHY FISHHHHYYYY`,
+	description: `damn son where'd you find this`,
 	cooldown: 35,
 	execute(message) {
 		const { guild, author } = message;

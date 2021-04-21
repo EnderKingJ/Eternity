@@ -90,12 +90,10 @@ module.exports = {
 				cats1.push(categories[catname]);
 			}
 			let b;
+			let p;
 			for (var i = 0; i /*hai*/< cats1.length; i++) {
-				b = i;
-				if (cats1[i].length > 10) b = 0;
-				cats.push(cats1[b].splice(0, 10));
+				cats.push(cats1[i]);
 			}
-			console.log(cats1.length / 10)
 			const generateEmbed = (start) => {
 				const daCmds = [];
 				let categor;
@@ -105,7 +103,7 @@ module.exports = {
 					.setAuthor(message.author.tag,
 					message.author.displayAvatarURL({ dynamic: true }))
 					.setTimestamp(Date.now())
-				let desc = `\`\`\`js\n`
+				let desc = `\`\`\`\n`
 				current.forEach(cmd => {
 					if (!categor) {
 						categor = cmd.category

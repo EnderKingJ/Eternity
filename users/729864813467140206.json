@@ -1,11 +1,12 @@
 {
-    "coins": 3347943,
+    "coins": 3858828,
     "booster": true,
     "items": {
         "fishingpole": 2,
         "huntingrifle": 1,
-        "fish": 3,
+        "fish": 11,
         "bird": 1,
-        "bear": 2
-    }
+        "bear": 9
+    },
+    "boosting": true
 }
