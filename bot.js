@@ -1,6 +1,7 @@
 
 require('dotenv').config();//default on repl???
 const fs = require('fs');
+const Statcord = require(`statcord.js`);
 const token = process.env.TOKEN
 const Discord = require('discord.js');
 const JSONdb = require(`simple-json-db`);
@@ -21,6 +22,7 @@ const log = require(`./commands/setup/logs.js`);
 client.commands = new Discord.Collection();
 client.cooldowns = new Discord.Collection();
 const commandFolders = fs.readdirSync('./commands');
+
 for (const folder of commandFolders) {
 	const commandFiles = fs.readdirSync(`./commands/${folder}`).filter(file => file.endsWith('.js'));
 	for (const file of commandFiles) {
@@ -87,7 +89,7 @@ const { run } = require(`./levels.js`)
 const antiad = require(`./commands/admin/ad.js`);
 // 819283598879883334
 client.shard.parentPort.on('UnhandledPromiseRejection', error => {
-	console.error(error)
+	console.error("\033[91m"+error+"\033[0m");
 });
 
 client.on('guildCreate', async guild => {

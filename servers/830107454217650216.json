@@ -142,9 +142,10 @@
     "invites": {
         "Anita.Dick#9427": 9,
         "Adolf_Crustler#3428": 1,
-        "Embry#9427": 3,
+        "Embry#9427": 0,
         "DaCoolestKidInTheWorld#9091": 1,
-        "Lil Shawty#9091": 0
+        "Lil Shawty#9091": 0,
+        "Kaizo Aleks#3667": 0
     },
     "830452389299224637-snipe": {
         "id": "693574999373643876",
@@ -166,7 +167,10 @@
     },
     "invitedby": {
         "Taylor/14#9801": "Lil Shawty#9091",
-        "eatmyassUwU#0397": "Embry#9427"
+        "eatmyassUwU#0397": "Embry#9427",
+        "nine#0600": "Kaizo Aleks#3667",
+        "Botbotb#8675": "Kaizo Aleks#3667",
+        "tomob#8676": "Kaizo Aleks#3667"
     },
     "830108586909892658-snipe": {
         "id": "754536023895048202",
@@ -205,10 +209,10 @@
         "time": 1618717014556
     },
     "833189087929434122-snipe": {
-        "id": "749065756037349527",
-        "name": "Adolf_Crustler#3428",
-        "content": "e!blush <@321818109927227392> ayo shawtyyyy",
-        "time": 1618968492557
+        "id": "173948844856311809",
+        "name": "nine#0600",
+        "content": "",
+        "time": 1619023839887
     },
     "833533913775210516-snipe": {
         "id": "569706620502671371",

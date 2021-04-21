@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<script src = 'script.js'></script>
+<div id = "username"></div>
+</head>
+<script>
+const socket = new WebSocket(`wss://dashboard.eternitydc.xyz/`);
+socket.send(`aeee`);
+
+socket.onmessage = ({data}) => {
+	const message = data.substring(1);
+	switch(data[0]) {
+		case "i":
+			document.querySelector(`#username`).innerHTML = message;
+			alert(message)
+			break;
+	}
+}
+</script>
+</html>

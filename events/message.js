@@ -126,7 +126,7 @@ module.exports = {
 
 				});
 			} catch (error) {
-				console.log(error)
+				console.error("\033[91m"+error+"\033[0m");
 			}
 	}
 }
