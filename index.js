@@ -61,7 +61,7 @@ app.get(`/`, async (req, res) => {
 	if (!key) res.redirect(`/login`);
 	else {
 		let user = await client.getUser(key).catch(error => {
-			return res.redirect(`https://discord.com/api/oauth2/authorize?client_id=833235095472308235&redirect_uri=https%3A%2F%2Fdashboard.eternitydc.xyz%2Flogin&response_type=code&scope=identify%20guilds`)
+			return res.redirect(`https://discord.com/api/oauth2/authorize?client_id=833235095472308235&redirect_url=https%3A%2F%2Fdashboard.eternitydc.xyz%2Flogin&response_type=code&scope=identify%20guilds`)
 		});
 		let guildsHolder = await client.getGuilds(key);
 		const myGuilds = new Discord.Collection()
